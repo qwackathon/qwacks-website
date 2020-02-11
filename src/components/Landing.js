@@ -34,9 +34,9 @@ const Landing = () => (
   <Scene triggerHook="onLeave" duration={1000} pin>
   {(progress1) => (
   <Timeline totalProgress={progress1} paused>
-  <Tween from={{ css: {opacity: 1, position: "absolute", right: "-120px", top: "250px"} }} to={{ css: {opacity: 0, position: "absolute", right: "-300px", top: "100px"} }}>      
+  <Tween from={{ css: {opacity: 1, position: "absolute", left: "70px", top: "250px"} }} to={{ css: {opacity: 0, position: "absolute", left: "300px", top: "100px"} }}>      
       <div className="animation">
-      <img src={Toaster} css={{transform: "rotate(20deg)", position: "absolute", width: "300px", right: "1450px", top: "150px", overflowX: "hidden", "@media(max-width: 1190px)": {display: "none"}}}/>
+      <img src={Toaster} css={{transform: "rotate(20deg)", position: "absolute", width: "300px", left: "0px", top: "150px", overflowX: "hidden", "@media(max-width: 1400px)": {display: "none"}}}/>
       </div>
     </Tween>
   </Timeline>
@@ -47,7 +47,7 @@ const Landing = () => (
   <Timeline totalProgress={progress2} paused>
     <Tween from={{ css: {opacity: 1, rotation: -20} }} to={{ css: {opacity: 0, rotation: 10} }}>
       <div className="animation">
-      <img src={Monkey} css={{transform: "scaleX(-1)", position: "absolute", width: "400px", right: "150px", top: "350px", overflowX: "hidden", "@media(max-width: 1190px)": {display: "none"}}}/>
+      <img src={Monkey} css={{transform: "scaleX(-1)", position: "absolute", width: "400px", right: "150px", top: "350px", overflowX: "hidden", "@media(max-width: 1400px)": {display: "none"}}}/>
       </div>
     </Tween>
   </Timeline>
