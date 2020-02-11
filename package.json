@@ -1,0 +1,97 @@
+{
+  "name": "qhacks-website",
+  "version": "0.0.1",
+  "description": "Website for QHacks!",
+  "author": "QHacks Engineering",
+  "homepage": "https://github.com/qhacks/qhacks-website#readme",
+  "bugs": {
+    "url": "https://github.com/qhacks/qhacks-website/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qhacks/qhacks-website.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "style": "eslint src/**/*.js",
+    "clean": "gatsby clean",
+    "format": "prettier --write 'src/**/*.js' && eslint src/**/*.js --fix",
+    "test": "npm run jest-tests && npm run cypress-tests",
+    "jest-tests": "jest",
+    "jest-tests-watch": "jest --watchAll",
+    "jest-tests-with-coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "cypress-tests": "start-server-and-test develop http://localhost:8000 cypress-run",
+    "cypress-run": "cypress run",
+    "cypress-open": "cypress open",
+    "cypress-run-record": "cypress run --record",
+    "cypress-verify": "cypress verify"
+  },
+  "engines": {
+    "node": "8.11.x",
+    "npm": "6.x"
+  },
+  "dependencies": {
+    "@sentry/browser": "^4.2.4",
+    "apollo-boost": "^0.1.23",
+    "babel-polyfill": "^6.26.0",
+    "gatsby": "^2.17.4",
+    "gatsby-plugin-glamor": "^2.0.5",
+    "gatsby-plugin-google-analytics": "^2.0.7",
+    "gatsby-plugin-manifest": "^2.0.6",
+    "gatsby-plugin-netlify": "^2.0.1",
+    "gatsby-plugin-offline": "^2.0.9",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-robots-txt": "^1.3.0",
+    "glamor": "^2.20.40",
+    "graphql-tag": "^2.10.0",
+    "moment-timezone": "^0.5.21",
+    "react": "^16.5.0",
+    "react-apollo": "^2.3.3",
+    "react-countdown-now": "^2.1.2",
+    "react-dom": "^16.5.0",
+    "react-gsap": "^1.2.0",
+    "react-helmet": "^5.2.0",
+    "react-particles-js": "^2.7.0",
+    "react-responsive": "^5.0.0",
+    "react-scrollmagic": "^2.1.1",
+    "react-scrollspy": "^3.3.5",
+    "react-slick": "^0.23.1",
+    "react-sticky": "^6.0.3",
+    "react-transition-group": "^2.5.0",
+    "slick-carousel": "^1.8.1",
+    "unfetch": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.6.0",
+    "coveralls": "^3.0.2",
+    "cypress": "^3.1.0",
+    "enzyme": "^3.5.0",
+    "enzyme-adapter-react-16": "^1.3.1",
+    "enzyme-to-json": "^3.3.4",
+    "eslint": "^5.4.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^0.14.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.13.7",
+    "pretty-quick": "^1.6.0",
+    "regenerator-runtime": "^0.12.1",
+    "start-server-and-test": "^1.7.11"
+  }
+}
