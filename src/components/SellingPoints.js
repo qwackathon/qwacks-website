@@ -65,8 +65,6 @@ class SellingPoints extends Component {
     
     const blurb = (
       <span css = {{ color:"#ffffffff" }}>
-        QWacks has something to offer no one.
-        <br />
         Here are some ideas of things we want to see!
       </span>
     );
@@ -89,7 +87,7 @@ class SellingPoints extends Component {
           <MediaQuery query="screen and (min-width: 1000px)">
             <div
               css={{
-                height: "575px",
+                height: "975px",
                 position: "relative"
               }}
             >

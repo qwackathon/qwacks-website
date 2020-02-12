@@ -9,7 +9,7 @@ const PointList = (props) => {
     <CSSTransition
       key={`${item.name} ${item.project}`}
       classNames="pointsAnimation"
-      timeout={500}
+      timeout={1000}
     >
       <PointCard item={item} index={i} />
     </CSSTransition>
@@ -17,11 +17,10 @@ const PointList = (props) => {
   return (
     <div
       css={{
-        width: "50%",
         height: "100%",
+        width: "100%",
+        top: 125,
         position: "absolute",
-        top: 0,
-        right: 0,
         display: "flex",
         alignItems: "center"
       }}

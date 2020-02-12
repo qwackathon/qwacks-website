@@ -150,7 +150,7 @@ strong {
 .pointsAnimation-enter {
   opacity: 0.5 !important;
   transform: scale(0.9);
-  margin-right: -553px !important;
+  margin-right: -1083px !important;
   box-shadow: none;
 }
 
@@ -175,7 +175,7 @@ strong {
   opacity: 0.5 !important;
   transform: scale(0.9);
   box-shadow: none !important;
-  margin-right: -553px !important;
+  margin-right: -1083px !important;
   transition: opacity 500ms ease 0ms, margin 500ms ease 0ms,
     transform 500ms ease 0ms, box-shadow 500ms ease 0ms !important;
   z-index: 1;

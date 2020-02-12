@@ -13,27 +13,25 @@ const PointBlurb = (props) => {
   const blurbStyle = {
     lineHeight: "1.6",
     fontWeight: 500,
-    fontSize: "20px"
+    fontSize: "20px",
+    display: "flex",
+    justifyContent: "center"
   };
 
   return (
     <div
       css={{
-        width: "50%",
-        height: "100%",
         position: "relative",
-        zIndex: 2,
-        top: 0,
-        left: 0,
+        top: 110,
         display: "flex",
-        alignItems: "center",
-        justifyContent: "right"
+        justifyContent: "center",
+        zIndex: 1
       }}
     >
-      <div css={{ marginRight: "64px" }}>
-        <h1 css={{ color: "#ffffff", marginBottom: "30px" }}> Wacker Ideas </h1>
+      <div>
+        <h1 css={{ color: "#ffffff", marginBottom: "30px", display: "flex", justifyContent: "center"}}> Wacker Ideas </h1>
         <p css={{ ...blurbStyle }}>{props.text}</p>
-        <div css={{ marginTop: "65px" }}>
+        <div css={{ marginTop: "800px", display: "flex", justifyContent: "center" }}>
           <input
             onClick={() => props.prevPoint()}
             css={{

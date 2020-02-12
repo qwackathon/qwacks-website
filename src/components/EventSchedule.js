@@ -283,7 +283,7 @@ class EventSchedule extends Component {
         <section
           id="schedule"
           css={{
-            padding: "0px 0 50px 0",
+            padding: "120px 0 50px 0",
             margin: "0 auto",
             overflow: "hidden"
           }}
