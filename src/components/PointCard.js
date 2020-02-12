@@ -1,7 +1,5 @@
 import React from "react";
 
-import quotes from "../assets/img/icons/quotesIcon.svg";
-
 const PointCard = (props) => (
   <div
     css={{
@@ -72,11 +70,17 @@ const PointCard = (props) => (
       {props.item.text}
     </p>
     <img
-      src={quotes}
+      src={props.item.sample}
       css={{
-        position: "absolute",
-        bottom: 24,
-        right: 40
+        position: "relative",
+        maxWidth: "70%",
+        maxHeight: "70%",
+        marginTop: "40px",
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+        borderRadius: "8px",
+        border: "solid 3px #e8e8e8"
       }}
       alt=""
     />

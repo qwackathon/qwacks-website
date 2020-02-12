@@ -13,31 +13,37 @@ import jacobLaframboise from "../assets/img/headshots/jacobLaframboise.jpg";
 import amyLu from "../assets/img/headshots/amyLu.png";
 import cooperLeong from "../assets/img/headshots/cooperLeong.png";
 
+import rosettaStoned from "../assets/img/examples/rosetta_stoned.png";
+import beeMovieTranscriber from "../assets/img/examples/bee_movie_transcriber.png"
+import snapSpectacles from "../assets/img/examples/snap_chat_spectacles.jpg"
 
 const points = [
   {
     name: "Elon Musk",
-    project: "Reverse Tinder",
+    project: "Rosetta Stoned",
     projectLink: "https://devpost.com/software/qhacks-v1",
     image: amyLu,
     text:
-      "It's like Tinder, but instead of showing you everyone, it only shows you people that didn't swipe on you and bots."
+      "It's Rosetta Stone but for blowing fat clouds.",
+    sample: rosettaStoned
   },
   {
     name: "Cooper Leong",
-    project: "Super Dark Mode",
+    project: "Bee Movie Transcriber",
     projectLink: "https://devpost.com/software/espect",
     image: cooperLeong,
     text:
-      "A chrome extension for you dark mode enthusiasts. It takes your webpage, and makes it as dark as possible!"
+      "A chrome extension that turns all the text on your page to soemthing from the bee movie script!",
+    sample: beeMovieTranscriber
   },
   {
     name: "Jeff Bezos",
-    project: "Yamazon",
+    project: "Snap Spectacles",
     projectLink: "https://devpost.com/software/qhacks-zgmlxr",
     image: jacobLaframboise,
     text:
-      "Amazon marketplace but exclusively for yams."
+      "Snap Spectacles",
+    sample: snapSpectacles
   }
 ];
 
