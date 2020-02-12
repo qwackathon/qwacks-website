@@ -28,6 +28,9 @@ import stickermuleLogo from "../assets/img/sponsors/stickermule.svg";
 import schoolOfComputingLogo from "../assets/img/sponsors/schoolOfComputing.png";
 import asusAmsEngSocLogo from "../assets/img/sponsors/asusAmsEngSoc.png";
 
+import gogurt from "../assets/img/sponsors/gogurt.png";
+
+
 const Sponsors = () => (
   <section
     id="sponsors"
@@ -113,7 +116,7 @@ const Sponsors = () => (
                       width: "180px"
                     }
                   }}
-                  src={sunlifeLogo}
+                  src={gogurt}
                   alt="SunLife Logo"
                 />
               </SponsorLink>
@@ -153,7 +156,7 @@ const Sponsors = () => (
 
             <SponsorLink url="http://td.com/">
                 <img
-                  src={tdLogo}
+                  src={gogurt}
                   css={{
                     width: "300px",
                     marginLeft: "100px",
@@ -197,7 +200,7 @@ const Sponsors = () => (
 
               <SponsorLink url="https://www.scotiabank.com/ca/en">
                 <img
-                  src={scotiabankLogo}
+                  src={gogurt}
                   css={{
                     width: "350px",
                     marginRight: "100px",
@@ -256,7 +259,7 @@ const Sponsors = () => (
 
             <SponsorLink url="https://www.voiceflow.com/">
                 <img
-                  src={voiceflowLogo}
+                  src={gogurt}
                   css={{
                     width: "200px",
                     marginTop: "20px",
@@ -279,7 +282,7 @@ const Sponsors = () => (
 
             <SponsorLink url="https://ritual.co/">
                 <img
-                  src={ritualLogo}
+                  src={gogurt}
                   css={{
                     width: "200px",
                     marginTop: "20px",
@@ -302,7 +305,7 @@ const Sponsors = () => (
 
               <SponsorLink url="https://sketch.com/">
                 <img
-                  src={sketchLogo}
+                  src={gogurt}
                   css={{
                     width: "200px",
                     marginTop: "20px",
@@ -325,7 +328,7 @@ const Sponsors = () => (
 
               <SponsorLink url="https://www.wolfram.com/language/">
                 <img
-                  src={wolframLogo}
+                  src={gogurt}
                   css={{
                     width: "230px",
                     // marginRight: "10px",
@@ -352,7 +355,7 @@ const Sponsors = () => (
 
               <SponsorLink url="https://mosaicmfg.com/">
                 <img
-                  src={mosaicLogo}
+                  src={gogurt}
                   css={{
                     width: "230px",
                     // marginRight: "10px",
@@ -376,7 +379,7 @@ const Sponsors = () => (
 
               <SponsorLink url="http://rpabotpro.com/">
                 <img
-                  src={rpaBotProLogo}
+                  src={gogurt}
                   css={{
                     width: "200px",
                     marginRight: "10px",
@@ -440,7 +443,7 @@ const Sponsors = () => (
                 fontWeight: "bold"
               }}
             >
-              partnership@qhacks.io
+              partnership@qwacks.io
             </a>
           </p>
           {/* <ActionButton
@@ -560,7 +563,7 @@ const Sponsors = () => (
           > */}
             <SponsorLink url="http://www.cs.queensu.ca">
               <img
-                src={schoolOfComputingLogo}
+                src={gogurt}
                 alt="Queen's School of Computing"
                 css={{
                   zIndex: "9999",
@@ -580,7 +583,7 @@ const Sponsors = () => (
             </SponsorLink>
             <SponsorLink url="https://queensu.ca/innovationcentre">
               <img
-                src={qicLogo}
+                src={gogurt}
                 css={{
                   width: "400px",
                   marginTop: "25px",
@@ -664,7 +667,7 @@ const Sponsors = () => (
           >
             <SponsorLink url="https://smith.queensu.ca/grad_studies/mei/">
               <img
-                src={mmieLogo}
+                src={gogurt}
                 css={{
                   width: "400px",
                   marginTop: "25px",
@@ -684,7 +687,7 @@ const Sponsors = () => (
             </SponsorLink>
             <SponsorLink url="https://innovation-challenge.cityofkingston.ca">
               <img
-                src={kingstonLogo}
+                src={gogurt}
                 css={{
                   width: "180px",
                   "@media(max-width: 980px)": {
@@ -716,7 +719,7 @@ const Sponsors = () => (
           >
             <SponsorLink url="https://www.bloomberg.com/canada">
               <img
-                src={bloombergLogo}
+                src={gogurt}
                 css={{
                   width: "200px",
                   marginTop: "30px",
@@ -736,7 +739,7 @@ const Sponsors = () => (
             </SponsorLink>
             <SponsorLink url="http://hackp.ac/mlh-stickermule-hackathons">
               <img
-                src={stickermuleLogo}
+                src={gogurt}
                 css={{
                   width: "150px",
                   "@media(max-width: 980px)": {
@@ -754,7 +757,7 @@ const Sponsors = () => (
             </SponsorLink>
             <SponsorLink url="https://education.github.com/pack">
               <img
-                src={githubLogo}
+                src={gogurt}
                 css={{
                   width: "150px",
                   marginTop: "25px",
@@ -782,7 +785,7 @@ const Sponsors = () => (
           >
             <SponsorLink url="https://mlh.io">
               <img
-                src={mlhLogo}
+                src={gogurt}
                 css={{
                   width: "150px",
                   paddingBottom: "30px",

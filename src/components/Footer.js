@@ -12,6 +12,8 @@ import instagram from "../assets/img/icons/socialInstagram.svg";
 import wordmark from "../assets/img/logo/qhacksWordmark-white.svg";
 import MediaQuery from "react-responsive";
 
+import gogurt from "../assets/img/sponsors/gogurt.png";
+
 const navigateLinks = [
   {
     label: "QHacks 2019",
@@ -113,7 +115,7 @@ const Footer = () => (
           <span>
             <img
               height="34px"
-              src={logo}
+              src={gogurt}
               css={{ marginBottom: "5px", paddingRight: "13px" }}
               alt="QHacks Crown"
             />

@@ -7,24 +7,27 @@ import cameron from "../assets/img/speakers/CameronGorrie.jpg";
 import nicole from "../assets/img/mentors/headshots/NicoleFitzgerald.jpg";
 import david from "../assets/img/speakers/DavidHariri.jpg";
 
+import kermit from "../assets/img/headshots/kermit.jpg";
+
+
 
 import ContentWrapper from "./ContentWrapper";
 
 const speakers = [
   {
-    name: "Cameron Gorrie",
+    name: "Kermit the Frog",
     title: "Senior Engineering Manager",
     company: "Top Hat",
     description: " ",
-    image: cameron,
+    image: kermit,
     companyUrl: "https://tophat.com/"
   },
   {
-    name: "Nicole Fitzgerald",
+    name: "Kermit the Frog",
     title: "Machine Learning Engineer",
     company: "Microsoft",
     description: " ",
-    image: nicole,
+    image: kermit,
     companyUrl: "https://careers.microsoft.com/us/en"
 
   }

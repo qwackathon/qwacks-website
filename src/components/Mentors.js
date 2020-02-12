@@ -18,29 +18,31 @@ import nicole from "../assets/img/mentors/headshots/NicoleFitzgerald.jpg";
 import alex from "../assets/img/mentors/headshots/AlexAdusei.jpg";
 import rakan from "../assets/img/mentors/headshots/RakanAlShawaf.jpg";
 
+import kermit from "../assets/img/headshots/kermit_slim.png";
+
 const QHACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
 
 const mentors1 = [
     {
-    name: "Anuj Arora",
+    name: "Kermit the Frog",
     title: "Sales Engineering Lead",
-    headshot: anuj,
+    headshot: kermit,
     companyLogo: ada,
     companyUrl: "https://www.ada.support/",
     logoHeight: "40px"
     },
     {
-    name: "Gordon Gibson",
+    name: "Kermit the Frog",
     title: "Machine Learning Manager",
-    headshot: gordon,
+    headshot: kermit,
     companyLogo: ada,
     companyUrl: "https://www.ada.support/",
     logoHeight: "40px"
     },
     {
-    name: "Stefan Sokic",
+    name: "Kermit the Frog",
     title: "Software Engineer",
-    headshot: stefan,
+    headshot: kermit,
     companyLogo: kindred,
     companyUrl: "https://www.kindred.ai/",
     }
@@ -56,27 +58,27 @@ const mentors2 = [
   // companyUrl: "https://www.microsoft.com"
   // },
   {
-    name: "Enoch Tam",
+    name: "Kermit the Frog",
     title: "Software Engineer",
-    headshot: enoch,
+    headshot: kermit,
     companyLogo: google,
     companyUrl: "https://www.careers.google.com",
     logoMarginTop: "-15px",
     logoHeight: "80px"
   },
   {
-  name: "Alex Adusei",
+  name: "Kermit the Frog",
   title: "Software Engineer",
-  headshot: alex,
+  headshot: kermit,
   companyLogo: twitter,
   companyUrl: "https://www.twitter.com",
   logoMarginTop: "-15px",
   logoHeight: "80px"
   },
   {
-  name: "Rakan Al-Shawaf",
+  name: "Kermit the Frog",
   title: "Co-Founder",
-  headshot: rakan,
+  headshot: kermit,
   companyLogo: makeship,
   companyUrl: "https://makeship.com/",
   logoMarginTop: "-5px",

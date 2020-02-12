@@ -1,4 +1,4 @@
-/*Testimonials (refactor needed)*/
+/*inspiration (refactor needed)*/
 
 import React, { Component } from "react";
 import MediaQuery from "react-responsive";
@@ -77,7 +77,7 @@ class SellingPoints extends Component {
    
     return (
       <section
-        id="testimonials"
+        id="inspiration"
         css={{
           background: "00205B",
           backgroundSize: "cover",

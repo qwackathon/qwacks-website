@@ -11,9 +11,9 @@ const linkCss = {
 
 const questionsAndAnswers = [
   {
-    question: "What is a hackathon?",
+    question: "What is a wackathon?",
     answer:
-      "A hackathon is a sprint-like event where people from a variety of backgrounds come together to collaborate on software and hardware projects."
+      "A wackathon is a sprint-like event where people from a variety of backgrounds come together to collaborate on software and hardware projects."
   },
   {
     question: "Who is invited?",
