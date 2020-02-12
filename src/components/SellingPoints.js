@@ -12,6 +12,7 @@ import PointBlurbCompressed from "./PointBlurbCompressed";
 import jacobLaframboise from "../assets/img/headshots/jacobLaframboise.jpg";
 import amyLu from "../assets/img/headshots/amyLu.png";
 import cooperLeong from "../assets/img/headshots/cooperLeong.png";
+import kermit from "../assets/img/headshots/kermit_slim.png";
 
 import rosettaStoned from "../assets/img/examples/rosetta_stoned.png";
 import beeMovieTranscriber from "../assets/img/examples/bee_movie_transcriber.png"
@@ -22,7 +23,7 @@ const points = [
     name: "Elon Musk",
     project: "Rosetta Stoned",
     projectLink: "https://devpost.com/software/qhacks-v1",
-    image: amyLu,
+    image: kermit,
     text:
       "It's Rosetta Stone but for blowing fat clouds.",
     sample: rosettaStoned
@@ -31,7 +32,7 @@ const points = [
     name: "Cooper Leong",
     project: "Bee Movie Transcriber",
     projectLink: "https://devpost.com/software/espect",
-    image: cooperLeong,
+    image: kermit,
     text:
       "A chrome extension that turns all the text on your page to soemthing from the bee movie script!",
     sample: beeMovieTranscriber
@@ -40,7 +41,7 @@ const points = [
     name: "Jeff Bezos",
     project: "Snap Spectacles",
     projectLink: "https://devpost.com/software/qhacks-zgmlxr",
-    image: jacobLaframboise,
+    image: kermit,
     text:
       "Snap Spectacles",
     sample: snapSpectacles
