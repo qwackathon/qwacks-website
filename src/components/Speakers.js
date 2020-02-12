@@ -3,13 +3,7 @@ import SpeakerCard from "./SpeakerCard";
 import SpeakerSlider from "./SpeakerSlider";
 import Mentors from "./Mentors";
 
-import cameron from "../assets/img/speakers/CameronGorrie.jpg";
-import nicole from "../assets/img/mentors/headshots/NicoleFitzgerald.jpg";
-import david from "../assets/img/speakers/DavidHariri.jpg";
-
 import kermit from "../assets/img/headshots/kermit.jpg";
-
-
 
 import ContentWrapper from "./ContentWrapper";
 

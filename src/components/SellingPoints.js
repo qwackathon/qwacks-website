@@ -9,9 +9,7 @@ import PointBlurb from "./PointBlurb";
 import PointListCompressed from "./PointListCompressed.js";
 import PointBlurbCompressed from "./PointBlurbCompressed";
 
-import jacobLaframboise from "../assets/img/headshots/jacobLaframboise.jpg";
-import amyLu from "../assets/img/headshots/amyLu.png";
-import cooperLeong from "../assets/img/headshots/cooperLeong.png";
+// Headshots
 import kermit from "../assets/img/headshots/kermit_slim.png";
 
 import rosettaStoned from "../assets/img/examples/rosetta_stoned.png";

@@ -10,14 +10,6 @@ import twitter from "../assets/img/mentors/logos/twitter.svg";
 import makeship from "../assets/img/mentors/logos/makeship.png";
 
 // Mentor headshots
-import anuj from "../assets/img/mentors/headshots/AnujArora.jpg"
-import gordon from "../assets/img/mentors/headshots/GordonGibson.jpg";
-import stefan from "../assets/img/mentors/headshots/StefanSokic.jpg";
-import enoch from "../assets/img/mentors/headshots/EnochTam.jpg";
-import nicole from "../assets/img/mentors/headshots/NicoleFitzgerald.jpg";
-import alex from "../assets/img/mentors/headshots/AlexAdusei.jpg";
-import rakan from "../assets/img/mentors/headshots/RakanAlShawaf.jpg";
-
 import kermit from "../assets/img/headshots/kermit_slim.png";
 
 const QHACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
