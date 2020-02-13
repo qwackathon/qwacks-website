@@ -3,8 +3,8 @@ import { css } from "glamor";
 
 import ContentWrapper from "./ContentWrapper";
 
-import cubes1webp from "../assets/img/icons/cubes-1.webp";
-import cubes1png from "../assets/img/icons/cubes-1.png";
+import cubes1webp from "../assets/img/icons/monkey-toaster-float-1.webp";
+import cubes1png from "../assets/img/icons/monkey-toaster-float-1.png";
 
 const caretCSS = (backgroundColor) =>
   css({

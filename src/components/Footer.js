@@ -13,6 +13,7 @@ import wordmark from "../assets/img/logo/qhacksWordmark-white.svg";
 import MediaQuery from "react-responsive";
 
 import gogurt from "../assets/img/sponsors/gogurt.png";
+import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
 
 const navigateLinks = [
   {
@@ -81,11 +82,11 @@ const [smallScreens, mediumScreens, largeScreens] = [
 ];
 
 const Footer = () => (
-  <footer css={{ zIndex: "9999", backgroundColor: "#070b34", color: "#ffffff" }}>
+  <footer css={{ zIndex: "4", backgroundColor: "#070b34", color: "#ffffff" }}>
     <ContentWrapper>
       <div
         css={{
-          zIndex: "9999",
+          zIndex: "4",
           display: "grid",
           gridTemplateColumns: "auto auto auto",
           paddingTop: "80px",
@@ -103,9 +104,9 @@ const Footer = () => (
       >
         <div
           css={{
-            zIndex: "9999",
+            zIndex: "4",
             [smallScreens]: {
-              zIndex: "9999",
+              zIndex: "4",
               marginLeft: "auto",
               marginRight: "auto"
             },
@@ -114,12 +115,12 @@ const Footer = () => (
         >
           <span>
             <img
-              height="34px"
-              src={gogurt}
+              height="64px"
+              src={monkeyToaster}
               css={{ marginBottom: "5px", paddingRight: "13px" }}
               alt="QHacks Crown"
             />
-            <img height="37px" src={wordmark} alt="QHacks Wordmark" />
+            <img height="47px" src={wordmark} alt="QHacks Wordmark" />
           </span>
           <p
             css={{
@@ -129,7 +130,7 @@ const Footer = () => (
               paddingRight: "20px",
               paddingBottom: "40px",
               lineHeight: "1.67",
-              [smallScreens]: { zIndex: "9999", paddingLeft: "24px", paddingRight: "24px" }
+              [smallScreens]: { zIndex: "4", paddingLeft: "24px", paddingRight: "24px" }
             }}
           >
             QWacks is a bad idea.
@@ -147,14 +148,14 @@ const Footer = () => (
           </p> */}
           <div
             css={{
-              zIndex: "9999",
+              zIndex: "4",
               alignItems: "left",
               justifyContent: "left",
               display: "flex",
               marginLeft: "-8px",
               paddingBottom: "64px",
               [smallScreens]: {
-                zIndex: "9999",
+                zIndex: "4",
                 marginLeft: "0px",
                 paddingBottom: "24px"
               }
@@ -178,7 +179,7 @@ const Footer = () => (
               /> */}
             </MediaQuery>
           </div>
-          <div css={{ position: "relative", zIndex: "9999", [smallScreens]: { display: "none" } }}>
+          <div css={{ position: "relative", zIndex: "4", [smallScreens]: { display: "none" } }}>
             <p
               data-cy="footer-address"
               css={{ ...finePrint, marginBottom: "5px" }}
@@ -187,7 +188,7 @@ const Footer = () => (
             </p>
             <a
               data-cy="footer-dev-plug"
-              css={{ ...finePrint, fontWeight: "400", position: "relative", zIndex: "9999" }}
+              css={{ ...finePrint, fontWeight: "400", position: "relative", zIndex: "4" }}
               href="https://github.com/qhacks/qhacks-website/tree/dev-2020"
               target="_blank"
               rel="external noopener"
@@ -208,34 +209,34 @@ const Footer = () => (
         </div>
         <div
           css={{
-            zIndex: "9999",
+            zIndex: "4",
             marginLeft: "auto",
             marginRight: "auto",
-            paddingTop: "80px",
+            paddingTop: "10px",
             [smallScreens]: {
               paddingTop: "10px",
               paddingBottom: "30px",
               position: "relative",
-              zIndex: "9999"
+              zIndex: "4"
             }
           }}
         >
           <h3>Navigate</h3>
           <ul
             css={{
-              zIndex: "9999",
+              zIndex: "4",
               paddingTop: "30px",
               listStyleType: "none",
               ">li": { paddingBottom: "23px" },
               " a": {
-                zIndex: "9999",
+                zIndex: "4",
                 color: "inherit",
                 fontWeight: 600,
                 textDecoration: "none",
                 ":hover": {
                   color: "#ed253a"
                 },
-                [smallScreens]: {zIndex: "9999"}
+                [smallScreens]: {zIndex: "4"}
               }
             }}
           >
@@ -251,10 +252,10 @@ const Footer = () => (
             marginLeft: "auto",
             marginRight: "auto",
             [largeScreens]: {
-              paddingTop: "80px"
+              paddingTop: "10px"
             },
             [mediumScreens]: {
-              zIndex: "9999",
+              zIndex: "4",
               paddingTop: "80px"
             }
           }}
@@ -286,7 +287,7 @@ const Footer = () => (
               <div
                 key={url}
                 css={{
-                  zIndex: "9999",
+                  zIndex: "4",
                   display: "grid",
                   gridTemplateColumns: "min-content auto",
                   ":hover": {
@@ -298,7 +299,7 @@ const Footer = () => (
                     }
                   },
                   [smallScreens]: {
-                    zIndex: "9999",
+                    zIndex: "4",
                     display: "block",
                     width: "40px",
                     height: "40px",
@@ -321,7 +322,7 @@ const Footer = () => (
                         backgroundColor: "#ed253a"
                       },
                       [smallScreens]: {
-                        zIndex: "9999",
+                        zIndex: "4",
                         width: "40px",
                         height: "40px"
                       }
@@ -341,8 +342,8 @@ const Footer = () => (
         </div>
         <div
           css={{
-            [largeScreens]: { position: "relative", zIndex: "9999", display: "none" },
-            [mediumScreens]: { position: "relative", zIndex: "9999", display: "none" }
+            [largeScreens]: { position: "relative", zIndex: "4", display: "none" },
+            [mediumScreens]: { position: "relative", zIndex: "4", display: "none" }
           }}
         >
           <p
@@ -353,7 +354,7 @@ const Footer = () => (
           </p>
           <a
             data-cy="footer-dev-plug"
-            css={{ ...finePrint, position: "relative", zIndex: "9999", fontWeight: "400" }}
+            css={{ ...finePrint, position: "relative", zIndex: "4", fontWeight: "400" }}
             href="https://github.com/qhacks/qhacks-website/tree/dev-2020"
             target="_blank"
             rel="external noopener"

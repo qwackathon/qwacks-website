@@ -42,8 +42,8 @@ class SpeakerCard extends Component {
                   background: `url(${
                     this.props.image
                   }) no-repeat center center`,
-                  minHeight: "300px",
-                  minWidth:"300px",
+                  minHeight: "275px",
+                  minWidth:"275px",
                   backgroundSize: "cover",
                   width: "100%",
                   borderTopLeftRadius: "inherit",
@@ -64,7 +64,7 @@ class SpeakerCard extends Component {
             >
               <h3
                 css={{
-                  textTransform: "uppercase",
+                  //textTransform: "uppercase",
                   fontWeight: 800,
                   lineHeight: "28px",
                   color: "#00205b"
@@ -75,6 +75,7 @@ class SpeakerCard extends Component {
               <h2
                 css={{
                   fontWeight: 500,
+                  fontSize: "16px",
                   paddingTop: "8px",
                   lineHeight: "23px"
                 }}
@@ -88,7 +89,7 @@ class SpeakerCard extends Component {
                   lineHeight: "23px"
                 }}
               >
-                <a href={this.props.companyUrl}><b css={{fontSize: "20px"}}>{this.props.company}</b></a>
+                <a href={this.props.companyUrl}><b css={{fontSize: "15px"}}>{this.props.company}</b></a>
               </h2>
             </div>
           </div>

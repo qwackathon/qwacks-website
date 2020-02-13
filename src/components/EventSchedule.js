@@ -21,7 +21,7 @@ const schedule = [
     },
     {
     startDate: "2020-03-20T19:00:00",
-    endDate: "2020-03-20T20:00:00",
+    endDate: "2020-03-20T19:30:00",
     eventName: "Opening ceremonies",
     subtitle: " ",
     location: "Mitchell Hall"
@@ -153,17 +153,6 @@ class EventSchedule extends Component {
           <MediaQuery query="screen and (max-width: 760px)">
             <EventScheduleCompressedTable data={data} />
           </MediaQuery>
-          <p
-            id="*"
-            css={{
-              textAlign: "center",
-              position: "relative",
-              zIndex: 2,
-              color: "#bababa"
-            }}
-          >
-            *Subject to Change
-          </p>
         </section>
       </ContentWrapper>
     );

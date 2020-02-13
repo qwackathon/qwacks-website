@@ -8,11 +8,10 @@ import Countdown from 'react-countdown-now';
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween, Timeline } from 'react-gsap';
 
-import Toaster from "../assets/img/icons/Toaster.svg";
-import Rocket from "../assets/img/icons/Rocket.svg";
+import Toaster from "../assets/img/icons/Toaster2.svg";
+import Monkey from "../assets/img/icons/Monkey3.svg";
 
-import Monkey from "../assets/img/icons/Monkey.svg";
-import logo from "../assets/img/logo/qhacksCrown-colored.svg";
+import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
 import word from "../assets/img/logo/qhacksWordmark-white.svg";
 
 const applyButtonCSS = {
@@ -97,7 +96,7 @@ const Landing = () => (
 
           <img
             // class="center"
-            src={logo}
+            src={monkeyToaster}
             css={{
               display: "block",
               marginLeft: "auto",
@@ -139,7 +138,7 @@ const Landing = () => (
             css={{
               padding: "50px 0 30px 0",
               color: "#00205B",
-              //"-webkit-text-stroke": "1.3px #ffffff", 
+              "-webkit-text-stroke": "1.3px #ffffff", 
               fontWeight: 500,
               fontSize: "70px",
               letterSpacing: "10px",
@@ -159,10 +158,10 @@ const Landing = () => (
             backgroundColor="#00205B"
             foregroundColor="#ffffff"
             style={applyButtonCSS}
-            link="https://app.qhacks.io"
+            link="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
             type="rounded"
             >
-            Apply Now
+            Apply Soonish
             </ActionButton>
             <h2
             data-cy="qhacks-tagline"

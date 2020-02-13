@@ -9,20 +9,47 @@ import ContentWrapper from "./ContentWrapper";
 
 const speakers = [
   {
-    name: "Kermit the Frog",
-    title: "Senior Engineering Manager",
-    company: "Top Hat",
+    name: "Daniel Molyneaux",
+    title: "Chief Embezzlement Officer",
+    company: "Centre for Advanced Computing",
     description: " ",
-    image: kermit,
-    companyUrl: "https://tophat.com/"
+    image: "https://cac.queensu.ca/wp-content/uploads/2019/05/Daniel.jpg",
+    companyUrl: "https://cac.queensu.ca/"
   },
   {
-    name: "Kermit the Frog",
-    title: "Machine Learning Engineer",
-    company: "Microsoft",
+    name: "Joshua Wade",
+    title: "Chief Propoganda Officer",
+    company: "HPVCL",
     description: " ",
-    image: kermit,
-    companyUrl: "https://careers.microsoft.com/us/en"
+    image: "https://cac.queensu.ca/wp-content/uploads/2019/05/Josh.jpg",
+    companyUrl: "https://cac.queensu.ca/"
+
+  },
+  {
+    name: "Spencer Kelly",
+    title: "Chief Dough Getter",
+    company: "CAC",
+    description: " ",
+    image: "https://cac.queensu.ca/wp-content/uploads/2019/05/Spencer.jpg",
+    companyUrl: "https://cac.queensu.ca/"
+
+  },
+  {
+    name: "Cooper Leong",
+    title: "Chief Hackerman",
+    company: "Cognitive Development Hub",
+    description: " ",
+    image: "https://cac.queensu.ca/wp-content/uploads/2019/05/Cooper.jpg",
+    companyUrl: "https://cac.queensu.ca/"
+
+  },
+  {
+    name: "Evan Arsenault",
+    title: "Chief Collision Avoidance",
+    company: "Queen's CAC",
+    description: " ",
+    image: "https://cac.queensu.ca/wp-content/uploads/2019/05/Evan.jpg",
+    companyUrl: "https://cac.queensu.ca/"
 
   }
 
@@ -47,6 +74,7 @@ const Speakers = () => (
     <ContentWrapper>
       <h1
         css={{
+          paddingTop: "50px",
           paddingBottom: "48px",
           textAlign: "center",
           position: "relative",
@@ -57,7 +85,7 @@ const Speakers = () => (
           }
         }}
       >
-        Speakers
+        The bozos who thought this would be a good idea
       </h1>
       {/* Desktop */}
       <div
@@ -66,7 +94,7 @@ const Speakers = () => (
           position: "relative",
           zIndex: 3,
           maxWidth: speakers.length * 500,
-          marginLeft: "auto",
+          marginLeft: "-17%",
           marginRight: "auto",
           gridTemplateColumns: speakers
             .map(() => "1fr ")

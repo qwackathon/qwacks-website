@@ -4,6 +4,8 @@ import ContentWrapper from "./ContentWrapper";
 import MobileMenu from "./MobileMenu";
 import Menu from "./Menu";
 
+import Monkey from "../assets/img/icons/Monkey3.svg";
+
 let prevScrollY = 0;
 
 const menuItems = [
@@ -23,7 +25,8 @@ class Header extends Component {
       isMobileMenuVisible: false,
       isLogoVisible: false,
       isAtTheTop: true,
-      standaloneVersion: props.standaloneVersion || false
+      standaloneVersion: props.standaloneVersion || false,
+      superDarkMode: false
     };
   }
 
@@ -57,6 +60,10 @@ class Header extends Component {
       : "hidden";
   };
 
+  onSuperDarkModeClicked = () => {
+    this.setState({ superDarkMode: !this.state.superDarkMode });
+  }
+
   render() {
     // Throws an error during build command
     try {
@@ -67,27 +74,27 @@ class Header extends Component {
 
     return (
       <div>
-      
+        {this.state.superDarkMode && <h1 css={{height: "2000%", width: "2000%", zIndex: 5,  backgroundColor: "black", position: "absolute"}}></h1>}
         <div
-data-cy="mlh-banner"
-css={{
-  width: "100%",
-  position: "fixed",
-  top: this.state.isHeaderVisible ? "0px" : "-100px",
-  transition: "0.5s",
-  backgroundColor: "#ffffff",
-  opacity: this.state.isMobileMenuVisible
-    ? "1.0"
-    : (this.state.isHeaderVisible && "0.95") || "0",
-  zIndex: "5",
-  "@media(min-width:860px)": {
-    backgroundColor: this.props.standaloneVersion
-      ? "#ffffff"
-      : this.state.isAtTheTop
-        ? "#ffffff"
-        : "#ffffff",
-  }
-}}
+          data-cy="mlh-banner"
+          css={{
+            width: "100%",
+            position: "fixed",
+            top: this.state.isHeaderVisible ? "0px" : "-100px",
+            transition: "0.5s",
+            backgroundColor: "#ffffff",
+            opacity: this.state.isMobileMenuVisible
+              ? "1.0"
+              : (this.state.isHeaderVisible && "0.95") || "0",
+            zIndex: "5",
+            "@media(min-width:860px)": {
+              backgroundColor: this.props.standaloneVersion
+                ? "#ffffff"
+                : this.state.isAtTheTop
+                ? "#ffffff"
+                : "#ffffff"
+            }
+          }}
         >
           <ContentWrapper>
             <div
@@ -95,8 +102,7 @@ css={{
                 "@media(max-width:100%)": {
                   display: "grid",
                   zIndex: "99999",
-                  gridTemplateColumns: "auto auto",
-                 
+                  gridTemplateColumns: "auto auto"
                 }
               }}
             >
@@ -104,7 +110,7 @@ css={{
                 menuItems={this.props.menuItems || menuItems}
                 imgCss={this.state.isLogoVisible}
                 standaloneVersion={this.props.standaloneVersion}
-                      />
+              />
               <MobileMenu
                 menuItems={this.props.menuItems || menuItems}
                 isMenuVisible={this.state.isMobileMenuVisible}
@@ -112,6 +118,13 @@ css={{
               />
             </div>
           </ContentWrapper>
+          <p
+            css={{ position: "absolute", left: "15px", top: "30px", zIndex: 1 }}
+          >
+            <button onClick={this.onSuperDarkModeClicked}>
+              {this.state.superDarkMode ? "Super Normal Mode" : "Super Dark Mode"}
+            </button>
+          </p>
         </div>
       </div>
     );

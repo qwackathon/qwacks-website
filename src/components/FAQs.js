@@ -3,7 +3,7 @@ import ContentWrapper from "./ContentWrapper";
 
 const linkCss = {
   position: "relative",
-  zIndex: "9999",
+  zIndex: "4",
   textDecoration: "underline",
   color: "#fcbdff",
   fontWeight: 500

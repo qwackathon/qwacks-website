@@ -4,6 +4,9 @@ import ScrollSpy from "react-scrollspy";
 import colored from "../assets/img/logo/qhacksCrown-colored.svg";
 import coloredWordmark from "../assets/img/logo/qhacksWordmark-colored.svg";
 import { withClientState } from "apollo-link-state";
+import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
+import mlhBanner from "../assets/img/icons/mlhBanner.png";
+
 
 const Menu = (props) => {
   return (
@@ -37,13 +40,16 @@ const Menu = (props) => {
         <img
           css={{
             zIndex: "9999",
-            paddingTop: "20px",
-            paddingBottom: "20px",
+            paddingTop: "0px",
+            paddingBottom: "10px",
+            width: "100px",
+            height: "90px",
             "@media(max-width:820px)": {
-              display: "none"
+              display: "none",
+              position: "absolute"
             }
           }}
-          src={colored}
+          src={monkeyToaster}
           alt="QHacks Crown"
         />
         <img
@@ -62,7 +68,7 @@ const Menu = (props) => {
       </a>
       <a
         id="mlh-trust-badge"
-        href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=gray"
+        href="http://localhost:8000/static/mlhBanner-5237baeb74e1d653226b31a4226df5f1.png"
         target="_blank"
         rel="external noopener"
         css={{
@@ -78,13 +84,12 @@ const Menu = (props) => {
         }}
       >
         <img
-          src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-gray.svg"
+          src={mlhBanner}
           alt="Major League Hacking 2020 Hackathon Season"
           css={{
             height: "150px"
           }}
         />
-        <h1 align="center">NOT</h1>
       </a>
       <div
         align="right"

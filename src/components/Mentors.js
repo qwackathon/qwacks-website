@@ -79,9 +79,9 @@ const mentors2 = [
 ];
 
 export default () => (
-  <div css={{ marginBottom: "16px" }}>
+  <div css={{ marginBottom: "16px", marginTop: "25px" }}>
     <h1 css={{ color: "#ffffff", fontWeight: "600", fontSize: "28px" ,textAlign: "center",position: "relative",}}>
-      Additional Mentors and Workshop Leaders
+      Mentors and Judges
     </h1>
     <div
       css={{

@@ -73,9 +73,9 @@ const PointCard = (props) => (
       src={props.item.sample}
       css={{
         position: "relative",
-        maxWidth: "70%",
-        maxHeight: "70%",
-        marginTop: "40px",
+        maxWidth: "80%",
+        maxHeight: "80%",
+        marginTop: "20px",
         display: "block",
         marginLeft: "auto",
         marginRight: "auto",

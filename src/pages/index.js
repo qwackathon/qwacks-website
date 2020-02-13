@@ -54,7 +54,8 @@ export default () => {
   return (
    
       <div css={{ 
-        backgroundImage: "repeating-linear-gradient(#22CC6C, #26BCE5 20%, #C970CE, #22CC6C);",
+        //backgroundImage: "repeating-linear-gradient(#855988, #070b34 20%, #855988, #070b34);",
+        backgroundImage: "repeating-linear-gradient(#A059A4, #26BCE5 20%, #22CC6C, #A059A4);",
         backgroundSize: "cover",
         maxWidth: "100%",
         overflowY: "hidden",
