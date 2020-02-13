@@ -74,7 +74,17 @@ class Header extends Component {
 
     return (
       <div>
-        {this.state.superDarkMode && <h1 css={{height: "2000%", width: "2000%", zIndex: 5,  backgroundColor: "black", position: "absolute"}}></h1>}
+        {this.state.superDarkMode && (
+          <h1
+            css={{
+              height: "2000%",
+              width: "2000%",
+              zIndex: 5,
+              backgroundColor: "black",
+              position: "absolute"
+            }}
+          ></h1>
+        )}
         <div
           data-cy="mlh-banner"
           css={{
@@ -119,10 +129,20 @@ class Header extends Component {
             </div>
           </ContentWrapper>
           <p
-            css={{ position: "absolute", left: "15px", top: "30px", zIndex: 1 }}
+            css={{
+              position: "absolute",
+              left: "15px",
+              top: "30px",
+              zIndex: 1,
+              "@media only screen and (max-width: 1200px)": {
+                display: "none"
+            }            
+          }}
           >
-            <button onClick={this.onSuperDarkModeClicked}>
-              {this.state.superDarkMode ? "Super Normal Mode" : "Super Dark Mode"}
+            <button id="superDarkMode" onClick={this.onSuperDarkModeClicked}>
+              {this.state.superDarkMode
+                ? "Super Normal Mode"
+                : "Super Dark Mode"}
             </button>
           </p>
         </div>
