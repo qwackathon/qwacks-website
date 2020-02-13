@@ -103,10 +103,10 @@ const Sponsors = () => (
                 />
               </SponsorLink>
               
-              <SponsorLink url="https://www.sunlife.ca/">
+              <SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">
                 <img
                   css={{
-                    borderRadius: "2pt",
+                    borderRadius: "15pt",
                     width: "700px",
                     "@media(max-width: 980px)": {
                       width: "300px"
@@ -156,7 +156,7 @@ const Sponsors = () => (
 
             {/* Mega Row 1 */}
 
-            <SponsorLink url="http://td.com/">
+            <SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">
                 <img
                   src={gogurt}
                   css={{
@@ -200,7 +200,7 @@ const Sponsors = () => (
                 />
               </SponsorLink>
 
-              <SponsorLink url="https://www.scotiabank.com/ca/en">
+              <SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">
                 <img
                   src={gogurt}
                   css={{
@@ -437,7 +437,7 @@ const Sponsors = () => (
             Interested in partnering? Contact us at{" "}
             <a
               data-cy="partners-email-prompt"
-              href="mailto:partnership@qhacks.io"
+              href="mailto:partnership@qwacks.io"
               css={{
                 zIndex: "9999",
                 fontSize: "16px",
@@ -562,7 +562,7 @@ const Sponsors = () => (
               }
             }}
           > */}
-            <SponsorLink url="http://www.cs.queensu.ca">
+            <SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">
               <img
                 src={gogurt}
                 alt="Queen's School of Computing"
@@ -582,7 +582,7 @@ const Sponsors = () => (
                 }}
               />
             </SponsorLink>
-            <SponsorLink url="https://queensu.ca/innovationcentre">
+            <SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">
               <img
                 src={gogurt}
                 css={{

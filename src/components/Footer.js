@@ -11,24 +11,25 @@ import facebook from "../assets/img/icons/socialFacebook.svg";
 import instagram from "../assets/img/icons/socialInstagram.svg";
 import wordmark from "../assets/img/logo/qhacksWordmark-white.svg";
 import MediaQuery from "react-responsive";
+import QWacksLogoTyped from "../assets/img/logo/QWacks-logo-typed.png";
 
 import gogurt from "../assets/img/sponsors/gogurt.png";
 import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
 
 const navigateLinks = [
   {
-    label: "QHacks 2019",
-    url: "https://2019.qhacks.io/",
+    label: "QWacks 2019",
+    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     dataCy: "footer-2018-link"
   },
   {
     label: "Local Hack Day",
-    url: "https://localhackday.mlh.io/",
+    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     dataCy: "footer-lhd-link"
   },
   {
-    label: "QHacks Blog",
-    url: "https://medium.com/@qhacks",
+    label: "QWacks Blog",
+    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     dataCy: "footer-blog-link"
   },
   // {
@@ -38,7 +39,7 @@ const navigateLinks = [
   // },
   {
     label: "MLH Code of Conduct",
-    url: "https://static.mlh.io/docs/mlh-code-of-conduct.pdf",
+    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     dataCy: "footer-mlh-code-of-conduct-link"
   }
 ];
@@ -46,25 +47,25 @@ const navigateLinks = [
 const socialLinks = [
   {
     icon: mail,
-    url: "mailto:hello@qhacks.io",
-    label: "hello@qhacks.io",
+    url: "mailto:hello@qwacks.io",
+    label: "hello@qwacks.io",
     dataCy: "footer-email-link"
   },
   {
     icon: twitter,
-    url: "https://twitter.com/qhacks2020",
+    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     label: "Follow us on Twitter",
     dataCy: "footer-twitter-link"
   },
   {
     icon: facebook,
-    url: "https://fb.com/qhacks",
+    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     label: "Like us on Facebook",
     dataCy: "footer-facebook-link"
   },
   {
     icon: instagram,
-    url: "https://www.instagram.com/q_hacks/",
+    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     label: "Follow us on Instagram",
     dataCy: "footer-instagram-link"
   }
@@ -120,7 +121,7 @@ const Footer = () => (
               css={{ marginBottom: "5px", paddingRight: "13px" }}
               alt="QHacks Crown"
             />
-            <img height="47px" src={wordmark} alt="QHacks Wordmark" />
+            <img height="67px" src={QWacksLogoTyped} alt="QHacks Wordmark" />
           </span>
           <p
             css={{

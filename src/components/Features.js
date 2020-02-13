@@ -99,11 +99,11 @@ const Features = () => (
           </div>
           <div css={flexChildStyle}>
             <picture css={imgStyle}>
-              <source srcSet={qhacksSellingPointOnewebp} type="image/webp" />
-              <source srcSet={qhacksSellingPointOnejpg} type="image/jpg" />
+              <source srcSet="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif" type="image/webp" />
+              <source srcSet="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif" type="image/jpg" />
               <img
                 css={imgStyle}
-                src={qhacksSellingPointOnejpg}
+                src="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
                 alt="Hackers in a workshop"
               />
             </picture>
@@ -118,11 +118,11 @@ const Features = () => (
         >
           <div css={flexChildStyle}>
             <picture css={imgStyle}>
-              <source srcSet={qhacksSellingPointTwowebp} type="image/webp" />
-              <source srcSet={qhacksSellingPointTwojpg} type="image/jpg" />
+              <source srcSet="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif" type="image/webp" />
+              <source srcSet="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif" type="image/jpg" />
               <img
                 css={imgStyle}
-                src={qhacksSellingPointTwojpg}
+                src="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
                 alt="Mentor judging a VR hack"
               />
             </picture>

@@ -1,4 +1,5 @@
 import React from "react";
+import { ImageGroup, Image } from 'react-fullscreen-image'
 
 const PointCard = (props) => (
   <div
@@ -69,22 +70,22 @@ const PointCard = (props) => (
     >
       {props.item.text}
     </p>
-    <img
-      src={props.item.sample}
-      css={{
-        position: "relative",
-        maxWidth: "80%",
-        maxHeight: "80%",
-        marginTop: "20px",
-        display: "block",
-        marginLeft: "auto",
-        marginRight: "auto",
-        borderRadius: "8px",
-        border: "solid 3px #e8e8e8"
-      }}
-      alt=""
-    />
-  </div>
+      <img
+        src={props.item.sample}
+        css={{
+          position: "relative",
+          maxWidth: "80%",
+          maxHeight: "80%",
+          marginTop: "20px",
+          display: "block",
+          marginLeft: "auto",
+          marginRight: "auto",
+          borderRadius: "8px",
+          border: "solid 3px #e8e8e8"
+        }}
+        alt=""
+      />
+ </div>
 );
 
 export default PointCard;

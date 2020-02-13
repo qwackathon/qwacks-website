@@ -80,7 +80,7 @@ const OpeningSummary = () => (
          
           <iframe
             title="2018 QHacks Hackathon Highlights"
-            src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FQHacks%2Fvideos%2F346061232921670%2F&show_text=0&width=560"
+            src="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
             frameBorder="0"
             allow="autoplay; encrypted-media"
             allowFullScreen

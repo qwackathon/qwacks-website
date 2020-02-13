@@ -45,7 +45,7 @@ const questionsAndAnswers = [
         Yes! Hackers are expected to adhere to the{" "}
         <a
           css={linkCss}
-          href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+          href="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
           rel="external noopener"
           target="_blank"
         >
@@ -131,7 +131,7 @@ const FAQs = () => (
                 rel="external noopener"
                 target="_blank"
                 css={linkCss}
-                href="mailto:hello@qhacks.io"
+                href="mailto:hello@qwacks.io"
               >
                 hello@qhacks.io
               </a>{" "}
@@ -140,7 +140,7 @@ const FAQs = () => (
                 rel="external noopener"
                 target="_blank"
                 css={linkCss}
-                href="https://fb.com/qhacks"
+                href="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
               >
                 Facebook
               </a>

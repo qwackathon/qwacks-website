@@ -23,7 +23,7 @@ const points = [
   {
     name: "Cooper Leong",
     project: "Super Dark Mode",
-    projectLink: "https://devpost.com/software/espect",
+    projectLink: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     image: kermit,
     text:
       "A chrome extension for all you dark mode lovers! Take dark mode to the next level with Super Dark Mode - check it out on this page!",
@@ -32,7 +32,7 @@ const points = [
   {
     name: "Cooper Leong",
     project: "Shaker Selfie",
-    projectLink: "https://devpost.com/software/espect",
+    projectLink: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     image: kermit,
     text:
       "A fun new selfie taker where you have to shake the phone to take a photo, that way you capture life’s blurriest moments!",
@@ -41,7 +41,7 @@ const points = [
   {
     name: "Elon Musk",
     project: "Rosetta Stoned",
-    projectLink: "https://devpost.com/software/qhacks-v1",
+    projectLink: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     image: kermit,
     text:
       "It's Rosetta Stone but for blowing fat clouds.",
@@ -50,7 +50,7 @@ const points = [
   {
     name: "Cooper Leong",
     project: "Bee Movie Transcriber",
-    projectLink: "https://devpost.com/software/espect",
+    projectLink: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     image: kermit,
     text:
       "A chrome extension that turns all the text on your page to soemthing from the bee movie script!",
@@ -59,7 +59,7 @@ const points = [
   {
     name: "Jeff Bezos",
     project: "Snap Spectacles",
-    projectLink: "https://devpost.com/software/qhacks-zgmlxr",
+    projectLink: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     image: kermit,
     text:
       "Snap Spectacles",

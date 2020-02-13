@@ -20,7 +20,7 @@ const mentors1 = [
     title: "Sales Engineering Lead",
     headshot: kermit,
     companyLogo: ada,
-    companyUrl: "https://www.ada.support/",
+    companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     logoHeight: "40px"
     },
     {
@@ -28,7 +28,7 @@ const mentors1 = [
     title: "Machine Learning Manager",
     headshot: kermit,
     companyLogo: ada,
-    companyUrl: "https://www.ada.support/",
+    companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     logoHeight: "40px"
     },
     {
@@ -36,7 +36,7 @@ const mentors1 = [
     title: "Software Engineer",
     headshot: kermit,
     companyLogo: kindred,
-    companyUrl: "https://www.kindred.ai/",
+    companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     }
 
 ];
@@ -54,7 +54,7 @@ const mentors2 = [
     title: "Software Engineer",
     headshot: kermit,
     companyLogo: google,
-    companyUrl: "https://www.careers.google.com",
+    companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     logoMarginTop: "-15px",
     logoHeight: "80px"
   },
@@ -63,7 +63,7 @@ const mentors2 = [
   title: "Software Engineer",
   headshot: kermit,
   companyLogo: twitter,
-  companyUrl: "https://www.twitter.com",
+  companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
   logoMarginTop: "-15px",
   logoHeight: "80px"
   },
@@ -72,7 +72,7 @@ const mentors2 = [
   title: "Co-Founder",
   headshot: kermit,
   companyLogo: makeship,
-  companyUrl: "https://makeship.com/",
+  companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
   logoMarginTop: "-5px",
   }
 
