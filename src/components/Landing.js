@@ -139,7 +139,7 @@ const Landing = () => (
             css={{
               padding: "50px 0 30px 0",
               color: "#00205B",
-              "-webkit-text-stroke": "1.3px #ffffff", 
+              //"-webkit-text-stroke": "0.9px #ffffff", 
               fontWeight: 500,
               fontSize: "70px",
               letterSpacing: "10px",
@@ -152,7 +152,7 @@ const Landing = () => (
               }
             }}
           >
-          <h1 css={{fontSize: "45px"}}>"A bunch of monkeys coding on toasters"</h1>
+          <h1 css={{fontSize: "45px", color: "black"}}>"A bunch of monkeys coding on toasters"</h1>
           </div>
             <ActionButton
             dataCy="apply-button"
