@@ -29,6 +29,7 @@ import schoolOfComputingLogo from "../assets/img/sponsors/schoolOfComputing.png"
 import asusAmsEngSocLogo from "../assets/img/sponsors/asusAmsEngSoc.png";
 
 import gogurt from "../assets/img/sponsors/gogurt.png";
+import possiblyYou from "../assets/img/sponsors/possibly-you.gif";
 
 
 const Sponsors = () => (
@@ -105,7 +106,8 @@ const Sponsors = () => (
               <SponsorLink url="https://www.sunlife.ca/">
                 <img
                   css={{
-                    width: "400px",
+                    borderRadius: "2pt",
+                    width: "700px",
                     "@media(max-width: 980px)": {
                       width: "300px"
                     },
@@ -116,7 +118,7 @@ const Sponsors = () => (
                       width: "180px"
                     }
                   }}
-                  src={gogurt}
+                  src={possiblyYou}
                   alt="SunLife Logo"
                 />
               </SponsorLink>
@@ -229,8 +231,7 @@ const Sponsors = () => (
               </SponsorLink>
 
             </div>
-
-          {/* Startup */}
+          {/*
           <div
             css={{
               ">div.fourCol": {
@@ -254,7 +255,6 @@ const Sponsors = () => (
               }
             }}
           >
-            {/* Startup Row 1 */}
             <div className="fourCol">
 
             <SponsorLink url="https://www.voiceflow.com/">
@@ -406,6 +406,7 @@ const Sponsors = () => (
             
                </div>
               </div>
+              */}
             </div>
 
         {/* Partners */}
@@ -655,6 +656,7 @@ const Sponsors = () => (
           </div> */}
 
           {/* School Row 5 */}
+          {/*
           <div
             css={{
               display: "grid",
@@ -705,7 +707,6 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 6 */}
           <div
             css={{
               display: "grid",
@@ -776,7 +777,6 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
 
-          {/* School Row 6 */}
           <div
             css={{
               display: "grid",
@@ -803,6 +803,7 @@ const Sponsors = () => (
               />
             </SponsorLink>
           </div>
+          */}
         </div>
       </div>
     </div>

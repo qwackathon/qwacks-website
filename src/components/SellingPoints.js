@@ -12,11 +12,32 @@ import PointBlurbCompressed from "./PointBlurbCompressed";
 // Headshots
 import kermit from "../assets/img/headshots/kermit_slim.png";
 
+// Examples
+import superDarkMode from "../assets/img/examples/super-dark-mode.png"
+import shakerSelfie from "../assets/img/examples/shaker-selfie.jpg"
 import rosettaStoned from "../assets/img/examples/rosetta_stoned.png";
 import beeMovieTranscriber from "../assets/img/examples/bee_movie_transcriber.png"
 import snapSpectacles from "../assets/img/examples/snap_chat_spectacles.jpg"
 
 const points = [
+  {
+    name: "Cooper Leong",
+    project: "Super Dark Mode",
+    projectLink: "https://devpost.com/software/espect",
+    image: kermit,
+    text:
+      "A chrome extension for all you dark mode lovers! Take dark mode to the next level with Super Dark Mode - check it out on this page!",
+    sample: superDarkMode
+  },
+  {
+    name: "Cooper Leong",
+    project: "Shaker Selfie",
+    projectLink: "https://devpost.com/software/espect",
+    image: kermit,
+    text:
+      "A fun new selfie taker where you have to shake the phone to take a photo, that way you capture life’s blurriest moments!",
+    sample: shakerSelfie
+  },
   {
     name: "Elon Musk",
     project: "Rosetta Stoned",
