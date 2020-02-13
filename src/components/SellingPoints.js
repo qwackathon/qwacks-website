@@ -62,7 +62,7 @@ const points = [
     projectLink: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
     image: kermit,
     text:
-      "Snap Spectacles",
+      "\"Remember how cool and popular Google Glass was? What if we made hundreds of thousands of those, there’s no way we’d lose $40 million in one quarter.\” - Some guy who no longer works at Snapchat",
     sample: snapSpectacles
   }
 ];
