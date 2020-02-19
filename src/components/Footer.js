@@ -17,58 +17,58 @@ import gogurt from "../assets/img/sponsors/gogurt.png";
 import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
 
 const navigateLinks = [
-  {
-    label: "QWacks 2019",
-    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    dataCy: "footer-2018-link"
-  },
-  {
-    label: "Local Hack Day",
-    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    dataCy: "footer-lhd-link"
-  },
-  {
-    label: "QWacks Blog",
-    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    dataCy: "footer-blog-link"
-  },
+  // {
+  //   label: "QWacks 2019",
+  //   url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+  //   dataCy: "footer-2018-link"
+  // },
+  // {
+  //   label: "Local Hack Day",
+  //   url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+  //   dataCy: "footer-lhd-link"
+  // },
+  // {
+  //   label: "QWacks Blog",
+  //   url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+  //   dataCy: "footer-blog-link"
+  // },
   // {
   //   label: "QHacks Dashboard",
   //   url: "https://app.qhacks.io",
   //   dataCy: "footer-dashboard-link"
   // },
-  {
-    label: "MLH Code of Conduct",
-    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    dataCy: "footer-mlh-code-of-conduct-link"
-  }
+  // {
+  //   label: "MLH Code of Conduct",
+  //   url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+  //   dataCy: "footer-mlh-code-of-conduct-link"
+  // }
 ];
 
 const socialLinks = [
-  {
-    icon: mail,
-    url: "mailto:hello@qwacks.io",
-    label: "hello@qwacks.io",
-    dataCy: "footer-email-link"
-  },
-  {
-    icon: twitter,
-    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    label: "Follow us on Twitter",
-    dataCy: "footer-twitter-link"
-  },
-  {
-    icon: facebook,
-    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    label: "Like us on Facebook",
-    dataCy: "footer-facebook-link"
-  },
-  {
-    icon: instagram,
-    url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    label: "Follow us on Instagram",
-    dataCy: "footer-instagram-link"
-  }
+  // {
+  //   icon: mail,
+  //   url: "mailto:hello@qwacks.io",
+  //   label: "hello@qwacks.io",
+  //   dataCy: "footer-email-link"
+  // },
+  // {
+  //   icon: twitter,
+  //   url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+  //   label: "Follow us on Twitter",
+  //   dataCy: "footer-twitter-link"
+  // },
+  // {
+  //   icon: facebook,
+  //   url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+  //   label: "Like us on Facebook",
+  //   dataCy: "footer-facebook-link"
+  // },
+  // {
+  //   icon: instagram,
+  //   url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+  //   label: "Follow us on Instagram",
+  //   dataCy: "footer-instagram-link"
+  // }
 ];
 
 const finePrint = {
@@ -222,7 +222,7 @@ const Footer = () => (
             }
           }}
         >
-          <h3>Navigate</h3>
+          {/*<h3>Navigate</h3>*/}
           <ul
             css={{
               zIndex: "4",
@@ -261,7 +261,7 @@ const Footer = () => (
             }
           }}
         >
-          <h3 css={{ [smallScreens]: { display: "none" } }}>Get in touch</h3>
+          {/*<h3 css={{ [smallScreens]: { display: "none" } }}>Get in touch</h3>*/}
           <div
             css={{
               paddingTop: "30px",

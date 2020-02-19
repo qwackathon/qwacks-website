@@ -42,15 +42,7 @@ const questionsAndAnswers = [
     question: "Is there a Code of Conduct?",
     answer: (
       <span>
-        Yes! Hackers are expected to adhere to the{" "}
-        <a
-          css={linkCss}
-          href="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
-          rel="external noopener"
-          target="_blank"
-        >
-          Major League Hacking Code of Conduct.
-        </a>
+        Yes! Wackers must not create anything offensive towards anyone. 
       </span>
     )
   },
@@ -121,6 +113,7 @@ const FAQs = () => (
               </p>
             </div>
           ))}
+          {/*}
           <div css={{ paddingTop: "12px" }}>
             <h2 css={{ paddingBottom: "10px", fontWeight: "500", color:"white" }}>
               Have additional questions?
@@ -146,6 +139,7 @@ const FAQs = () => (
               </a>
             </p>
           </div>
+          */}
         </div>
       </div>
     </ContentWrapper>
