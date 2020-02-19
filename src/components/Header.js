@@ -12,7 +12,6 @@ const menuItems = [
   "about",
   "inspiration",
   "schedule",
-  "speakers",
   "sponsors",
   "faq"
 ];

@@ -102,11 +102,12 @@ const Sponsors = () => (
                   alt=""
                 />
               </SponsorLink>
-              
-              <SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">
+              <SponsorLink>
+              {/*<SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">*/}
                 <img
                   css={{
                     borderRadius: "15pt",
+                    marginBottom: "30px",
                     width: "700px",
                     "@media(max-width: 980px)": {
                       width: "300px"
@@ -141,6 +142,7 @@ const Sponsors = () => (
             </div>
           
           {/* Mega */}
+          {/*
           <div
               css={{
                 display: "grid",
@@ -154,8 +156,8 @@ const Sponsors = () => (
               }}
             >
 
-            {/* Mega Row 1 */}
-
+            
+                  
             <SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">
                 <img
                   src={gogurt}
@@ -231,7 +233,7 @@ const Sponsors = () => (
               </SponsorLink>
 
             </div>
-          {/*
+          
           <div
             css={{
               ">div.fourCol": {
@@ -411,400 +413,7 @@ const Sponsors = () => (
 
         {/* Partners */}
 
-        <div
-          css={{
-            position: "relative",
-            zIndex: "9999",
-            paddingTop: "70px",
-            paddingBottom: "0px"
-          }}
-        >
-          <h1 css={{ paddingBottom: "40px" }}>Our Partners</h1>
-          <p
-            css={{
-              position: "relative",
-              zIndex: "9999",
-              fontWeight: "bold",
-              color: "#000000",
-              paddingBottom: "24px",
-              ">a": {
-                color: "#c81c2e",
-                textDecoration: "underline",
-                ":hover": { textDecoration: "none" }
-              }
-            }}
-          >
-            Interested in partnering? Contact us at{" "}
-            <a
-              data-cy="partners-email-prompt"
-              href="mailto:partnership@qwacks.io"
-              css={{
-                zIndex: "9999",
-                fontSize: "16px",
-                fontWeight: "bold"
-              }}
-            >
-              partnership@qwacks.io
-            </a>
-          </p>
-          {/* <ActionButton
-            backgroundColor="#f8f8f8"
-            foregroundColor="#c81c2e"
-            type="rounded"
-            link="https://qhacks.nyc3.cdn.digitaloceanspaces.com/documents/QHacksPartnershipPackage.pdf"
-          >
-            Partnership Package
-          </ActionButton> */}
-        </div>
-
-        {/* School */}
-        <div
-          css={{
-            zIndex: "9999",
-            marginBottom: "100px"
-          }}
-        >
-          {/* School Row 1 */}
-          {/* <div
-            css={{
-              zIndex: "9999",
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "25px"
-            }}
-          >
-            <SponsorLink url="https://www.ece.queensu.ca">
-              <img
-                src={eceLogo}
-                css={{
-                  zIndex: "9999",
-                  width: "200px",
-                  "@media(max-width: 980px)": {
-                    width: "130px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "100px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "80px"
-                  }
-                }}
-                alt="ECE Logo"
-              />
-            </SponsorLink>
-          </div> */}
-
-          {/* School Row 2 */}
-          <div
-            css={{
-              zIndex: "9999",
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              marginBottom: "40px",
-              "@media(max-width: 820px)": {
-                gridTemplateColumns: "1fr",
-                marginBottom: "20px"
-              }
-            }}
-          >
-            {/* <SponsorLink url="http://www.cs.queensu.ca">
-              <img
-                src={schoolOfComputingLogo}
-                alt="Queen's School of Computing"
-                css={{
-                  zIndex: "9999",
-                  marginTop: "20px",
-                  width: "400px",
-                  "@media(max-width: 980px)": {
-                    width: "310px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "250px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "230px"
-                  }
-                }}
-              />
-            </SponsorLink>
-
-            <SponsorLink url="https://queensu.ca/innovationcentre">
-              <img
-                src={qicLogo}
-                alt="AMS, ASUS, and EngSoc"
-                css={{
-                  width: "280px",
-                  marginTop: "20px",
-                  "@media(max-width: 980px)": {
-                    width: "200px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "150px"
-                  },
-                  "@media(max-width: 820px)": {
-                    width: "110px",
-                    marginTop: "15px"
-                  }
-                }}
-              />
-            </SponsorLink>
-          </div>
-
-          School Row 3
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              marginBottom: "40px",
-              "@media(max-width: 820px)": {
-                gridTemplateColumns: "1fr",
-                marginBottom: "20px"
-              }
-            }}
-          > */}
-            <SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">
-              <img
-                src={gogurt}
-                alt="Queen's School of Computing"
-                css={{
-                  zIndex: "9999",
-                  marginTop: "20px",
-                  width: "400px",
-                  "@media(max-width: 980px)": {
-                    width: "310px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "250px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "230px"
-                  }
-                }}
-              />
-            </SponsorLink>
-            <SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">
-              <img
-                src={gogurt}
-                css={{
-                  width: "400px",
-                  marginTop: "25px",
-                  "@media(max-width: 980px)": {
-                    width: "310px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "250px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "230px"
-                  }
-                }}
-                alt="QIC Logo"
-              />
-            </SponsorLink>
-          </div>
-          
-
-          {/* School Row 4 */}
-          {/* <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              marginBottom: "40px",
-              "@media(max-width: 820px)": {
-                gridTemplateColumns: "1fr",
-                marginBottom: "20px"
-              }
-            }}
-          >
-            <SponsorLink url="https://dining.queensu.ca">
-              <img
-                src={sodexoLogo}
-                css={{
-                  width: "350px",
-                  "@media(max-width: 980px)": {
-                    width: "290px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "230px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "210px"
-                  }
-                }}
-                alt="Sodexo and Coca-Cola Logo"
-              />
-            </SponsorLink>
-            <SponsorLink url="http://thepcc.net">
-              <img
-                src={pccLogo}
-                css={{
-                  width: "230px",
-                  "@media(max-width: 980px)": {
-                    width: "190px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "130px"
-                  },
-                  "@media(max-width: 820px)": {
-                    width: "110px",
-                    marginTop: "15px"
-                  }
-                }}
-                alt="P&CC Logo"
-              />
-            </SponsorLink>
-          </div> */}
-
-          {/* School Row 5 */}
-          {/*
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr",
-              marginBottom: "40px",
-              "@media(max-width: 820px)": {
-                marginBottom: "20px"
-              }
-            }}
-          >
-            <SponsorLink url="https://smith.queensu.ca/grad_studies/mei/">
-              <img
-                src={gogurt}
-                css={{
-                  width: "400px",
-                  marginTop: "25px",
-                  paddingBottom: "40px",
-                  "@media(max-width: 980px)": {
-                    width: "310px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "250px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "230px"
-                  }
-                }}
-                alt="MMIE Logo"
-              />
-            </SponsorLink>
-            <SponsorLink url="https://innovation-challenge.cityofkingston.ca">
-              <img
-                src={gogurt}
-                css={{
-                  width: "180px",
-                  "@media(max-width: 980px)": {
-                    width: "150px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "120px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "100px"
-                  }
-                }}
-                alt="City of Kingston Logo"
-              />
-            </SponsorLink>
-          </div>
-
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr 1fr",
-              marginBottom: "40px",
-              "@media(max-width: 570px)": {
-                gridTemplateColumns: "1fr",
-                marginBottom: "20px"
-              }
-            }}
-          >
-            <SponsorLink url="https://www.bloomberg.com/canada">
-              <img
-                src={gogurt}
-                css={{
-                  width: "200px",
-                  marginTop: "30px",
-                  "@media(max-width: 980px)": {
-                    width: "180px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "160px",
-                    marginBottom: "10px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "130px"
-                  }
-                }}
-                alt="Bloomberg Logo"
-              />
-            </SponsorLink>
-            <SponsorLink url="http://hackp.ac/mlh-stickermule-hackathons">
-              <img
-                src={gogurt}
-                css={{
-                  width: "150px",
-                  "@media(max-width: 980px)": {
-                    width: "140px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "120px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "90px"
-                  }
-                }}
-                alt="Stickermule Logo"
-              />
-            </SponsorLink>
-            <SponsorLink url="https://education.github.com/pack">
-              <img
-                src={gogurt}
-                css={{
-                  width: "150px",
-                  marginTop: "25px",
-                  "@media(max-width: 980px)": {
-                    width: "140px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "120px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "90px"
-                  }
-                }}
-                alt="GitHub Logo"
-              />
-            </SponsorLink>
-          </div>
-
-          <div
-            css={{
-              display: "grid",
-              gridTemplateColumns: "1fr"
-            }}
-          >
-            <SponsorLink url="https://mlh.io">
-              <img
-                src={gogurt}
-                css={{
-                  width: "150px",
-                  paddingBottom: "30px",
-                  "@media(max-width: 980px)": {
-                    width: "130px"
-                  },
-                  "@media(max-width: 680px)": {
-                    width: "100px"
-                  },
-                  "@media(max-width: 460px)": {
-                    width: "80px"
-                  }
-                }}
-                alt="MLH Logo"
-              />
-            </SponsorLink>
-          </div>
-          */}
-        </div>
+        
       </div>
     </div>
     </ContentWrapper>

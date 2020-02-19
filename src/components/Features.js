@@ -9,10 +9,13 @@ import hackers from "../assets/img/icons/hackersIcon.svg";
 import schools from "../assets/img/icons/schoolsIcon.svg";
 import challenges from "../assets/img/icons/challengesIcon.svg";
 import applications from "../assets/img/icons/applicationsIcon.svg";
-import qhacksSellingPointOnejpg from "../assets/img/selling_points/qhacksSellingPointOne.jpg";
-import qhacksSellingPointTwojpg from "../assets/img/selling_points/qhacksSellingPointTwo.jpg";
-import qhacksSellingPointOnewebp from "../assets/img/selling_points/qhacksSellingPointOne.webp";
-import qhacksSellingPointTwowebp from "../assets/img/selling_points/qhacksSellingPointTwo.webp";
+
+import workingHardjpg from "../assets/img/selling_points/working-hard.jpg";
+import workingHardwebp from "../assets/img/selling_points/working-hard.webp";
+import goodJobjpg from "../assets/img/selling_points/good-job.jpg";
+import goodJobwebp from "../assets/img/selling_points/good-job.webp";
+
+
 import ContentWrapper from "./ContentWrapper";
 
 const twoColumnStyle = {
@@ -99,12 +102,12 @@ const Features = () => (
           </div>
           <div css={flexChildStyle}>
             <picture css={imgStyle}>
-              <source srcSet="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif" type="image/webp" />
-              <source srcSet="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif" type="image/jpg" />
+              <source srcSet={workingHardwebp} type="image/webp" />
+              <source srcSet={workingHardjpg} type="image/jpg" />
               <img
                 css={imgStyle}
-                src="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
-                alt="Hackers in a workshop"
+                src={workingHardjpg}
+                alt="Wackers in a workshop"
               />
             </picture>
           </div>
@@ -118,12 +121,12 @@ const Features = () => (
         >
           <div css={flexChildStyle}>
             <picture css={imgStyle}>
-              <source srcSet="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif" type="image/webp" />
-              <source srcSet="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif" type="image/jpg" />
+              <source srcSet={goodJobwebp} type="image/webp" />
+              <source srcSet={goodJobjpg} type="image/jpg" />
               <img
                 css={imgStyle}
-                src="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
-                alt="Mentor judging a VR hack"
+                src={goodJobjpg}
+                alt="Good job"
               />
             </picture>
           </div>

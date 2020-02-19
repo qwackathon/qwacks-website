@@ -13,46 +13,74 @@ moment.tz.setDefault("America/Kingston");
 // duration in minutes, startDate as ISO 8601
 const schedule = [
   {
-    startDate: "2020-03-20T18:00:00",
-    endDate: "2020-03-20T19:00:00",
+    startDate: "2020-03-20T17:00:00",
+    endDate: "2020-03-20T18:00:00",
     eventName: "Registration",
     subtitle: " ",
-    location: "Mitchell Hall"
+    location: "Mackintosh-Corry D201"
     },
     {
-    startDate: "2020-03-20T19:00:00",
-    endDate: "2020-03-20T19:30:00",
+    startDate: "2020-03-20T17:00:00",
+    endDate: "2020-03-20T18:00:00",
+    eventName: "Dinner",
+    subtitle: " ",
+    location: "Mackintosh-Corry D201"
+    },
+    {
+    startDate: "2020-03-20T18:00:00",
+    endDate: "2020-03-20T18:30:00",
     eventName: "Opening ceremonies",
     subtitle: " ",
-    location: "Mitchell Hall"
+    location: "Mackintosh-Corry D201"
     },
     {
-    startDate: "2020-03-20T19:30:00",
+    startDate: "2020-03-20T18:30:00",
     endDate: "",
     eventName: "Wacking begins!",
     subtitle: " ",
-    location: "Mitchell Hall"
+    location: "Mackintosh-Corry D201"
     },
     {
-    startDate: "2020-03-21T17:00:00",
+    startDate: "2020-03-21T08:00:00",
+    endDate: "2020-03-21T09:00:00",
+    eventName: "Breakfast",
+    subtitle: " ",
+    location: "Mackintosh-Corry D201"
+    },
+    {
+    startDate: "2020-03-21T13:00:00",
+    endDate: "2020-03-21T14:00:00",
+    eventName: "Lunch",
+    subtitle: " ",
+    location: "Mackintosh-Corry D201"
+    },
+    {
+    startDate: "2020-03-21T16:59:00",
     endDate: "",
     eventName: "Wacking closes",
     subtitle: "",
-    location: "Mitchell Hall"
+    location: "Mackintosh-Corry D201"
     },
     {
     startDate: "2020-03-21T17:00:00",
     endDate: "2020-03-21T18:00:00",
     eventName: "Judging",
     subtitle: "",
-    location: "Mitchell Hall"
+    location: "Mackintosh-Corry D201"
     },
     {
-    startDate: "2020-03-21T18:00:00",
+    startDate: "2020-03-21T17:30:00",
+    endDate: "2020-03-21T18:30:00",
+    eventName: "Dinner",
+    subtitle: "",
+    location: "Mackintosh-Corry D201"
+    },
+    {
+    startDate: "2020-03-21T18:30:00",
     endDate: "2020-03-21T19:00:00",
     eventName: "Closing ceremonies",
     subtitle: "",
-    location: "Mitchell Hall"
+    location: "Mackintosh-Corry D201"
     }
 ];
 

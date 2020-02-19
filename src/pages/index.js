@@ -123,7 +123,7 @@ export default () => {
           <Features />
           <SellingPoints />
           <EventSchedule />
-          <Speakers />
+          {/*<Speakers />*/}
           <Sponsors />
           <FAQs />
           <Footer />

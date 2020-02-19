@@ -3,6 +3,9 @@ import { css } from "glamor";
 
 import ContentWrapper from "./ContentWrapper";
 
+import uselessjpg from "../assets/img/selling_points/useless.jpg";
+import uselesswebp from "../assets/img/selling_points/useless.webp";
+
 import cubes1webp from "../assets/img/icons/monkey-toaster-float-1.webp";
 import cubes1png from "../assets/img/icons/monkey-toaster-float-1.png";
 
@@ -12,6 +15,12 @@ const caretCSS = (backgroundColor) =>
     width: "26px",
     height: "4px"
   });
+
+const imgStyle = {
+  maxHeight: "320px",
+  maxWidth: "475px",
+  width: "100%"
+};
 
 const OpeningSummary = () => (
   <section id="about">
@@ -49,7 +58,7 @@ const OpeningSummary = () => (
             "@media (max-width: 920px)": { paddingRight: "0px" }
           }}
           >
-          <h1 css={{ paddingTop: "2px" }}>Make some garbage</h1>
+          <h1 css={{ paddingTop: "2px" }}>Make Something Useless</h1>
           <div
             css={{
               display: "grid",
@@ -78,26 +87,15 @@ const OpeningSummary = () => (
           }}
           >
          
-          <iframe
-            title="2018 QHacks Hackathon Highlights"
-            src="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
-            frameBorder="0"
-            allow="autoplay; encrypted-media"
-            allowFullScreen
-            css={{
-              width: "500px",
-              height: "281px",
-              "@media(max-width: 1215px)": {
-                width: "400px",
-                height: "225px"
-              },
-              "@media(max-width: 1115px)": {
-                paddingTop: "40px",
-                width: "100%",
-                height: "100%"
-              }
-            }}
-            />
+          <picture css={imgStyle}>
+            <source srcSet={uselesswebp} type="image/webp" />
+            <source srcSet={uselessjpg} type="image/jpg" />
+            <img
+                css={imgStyle}
+                src={uselessjpg}
+                alt="Useless wack"
+              />
+          </picture>
         </div>
         <picture
           css={{

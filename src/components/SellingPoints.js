@@ -11,6 +11,13 @@ import PointBlurbCompressed from "./PointBlurbCompressed";
 
 // Headshots
 import kermit from "../assets/img/headshots/kermit_slim.png";
+import matt from "../assets/img/headshots/matt-mii.png";
+import elon from "../assets/img/headshots/elon.jpg";
+import casper from "../assets/img/headshots/casper.jpg";
+import dyatlov from "../assets/img/headshots/dyatlov.png";
+import spiegel from "../assets/img/headshots/spiegel.jpg";
+import barry from "../assets/img/headshots/barry.png";
+import hackerman from "../assets/img/headshots/hackerman.png";
 
 // Examples
 import superDarkMode from "../assets/img/examples/super-dark-mode.png"
@@ -18,52 +25,65 @@ import shakerSelfie from "../assets/img/examples/shaker-selfie.jpg"
 import rosettaStoned from "../assets/img/examples/rosetta_stoned.png";
 import beeMovieTranscriber from "../assets/img/examples/bee_movie_transcriber.png"
 import snapSpectacles from "../assets/img/examples/snap_chat_spectacles.jpg"
+import leadBlanket from "../assets/img/examples/leadblanket.jpeg"
+import brightPhone from "../assets/img/examples/brightphone.jpg"
 
 const points = [
   {
-    name: "Cooper Leong",
+    name: "Hackerman",
     project: "Super Dark Mode",
-    projectLink: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    image: kermit,
+    image: hackerman,
     text:
       "A chrome extension for all you dark mode lovers! Take dark mode to the next level with Super Dark Mode - check it out on this page!",
     sample: superDarkMode
   },
   {
-    name: "Cooper Leong",
+    name: "Matt",
     project: "Shaker Selfie",
-    projectLink: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    image: kermit,
+    image: matt,
     text:
       "A fun new selfie taker where you have to shake the phone to take a photo, that way you capture life’s blurriest moments!",
     sample: shakerSelfie
   },
   {
-    name: "Elon Musk",
-    project: "Rosetta Stoned",
-    projectLink: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    image: kermit,
-    text:
-      "It's Rosetta Stone but for blowing fat clouds.",
-    sample: rosettaStoned
-  },
-  {
-    name: "Cooper Leong",
+    name: "Barry B. Benson",
     project: "Bee Movie Transcriber",
-    projectLink: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    image: kermit,
+    image: barry,
     text:
       "A chrome extension that turns all the text on your page to soemthing from the bee movie script!",
     sample: beeMovieTranscriber
   },
   {
-    name: "Jeff Bezos",
+    name: "Evan Spiegel",
     project: "Snap Spectacles",
-    projectLink: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    image: kermit,
+    image: spiegel,
     text:
       "\"Remember how cool and popular Google Glass was? What if we made hundreds of thousands of those, there’s no way we’d lose $40 million in one quarter.\” - Some guy who no longer works at Snapchat",
     sample: snapSpectacles
+  },
+  {
+    name: "Antoly Dyatlov",
+    project: "Weighted Blanket with Lead Lining",
+    image: dyatlov,
+    text:
+      "Enjoy the anxiety reducing comfort of a weighted blanket with the added bonus of being shielded from ionizing radiation! Be prepared for deeper sleep and impending nuclear war.",
+    sample: leadBlanket
+  },
+  {
+    name: "Casper the Friendly Ghost",
+    project: "Screen Blue Light Enhancer",
+    image: casper,
+    text:
+      "A useful app that sets your phone’s screen to maximum brightness between 9 pm and 7 am. It also increases blue light levels to keep you from getting sleepy.",
+    sample: brightPhone
+  },
+  {
+    name: "Elon Musk",
+    project: "Rosetta Stoned",
+    image: elon,
+    text:
+      "It's Rosetta Stone but for blowing fat clouds.",
+    sample: rosettaStoned
   }
 ];
 

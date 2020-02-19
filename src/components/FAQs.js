@@ -27,16 +27,16 @@ const questionsAndAnswers = [
   },
   {
     question: "How much does it cost to attend?",
-    answer: "Absolutely nothing! Not one penny. (Remember those?)"
+    answer: "The event will cost anywhere from $5 - $10, and you may ask “Why are we paying for a hackathon? They’re always free!” Well guess what bozo this is a WACKATHON, notice the difference? We take W’s. The reason for the cost is to give participants the most rewarding experience possible! The money will mainly go towards prizes and food for YOU!"
   },
   {
     question: "What if I don’t have a team?",
     answer:
-      "Not to worry! We'll have a team-formation session prior to the hackathon for you to find people you’d like to work with. There will be plenty of other people in the same situation, and we’ll have you up and running in no time!"
+      "We will have a team-formation channel on the Slack, so you can find goons that you think you’d work well with!"
   },
   {
     question: "Can I work on a past project?",
-    answer: "No. All projects must be started from scratch at the event."
+    answer: "Please no. If you’ve already created something like the examples we’ve given then shame on you - is that how you really use your time?"
   },
   {
     question: "Is there a Code of Conduct?",
@@ -57,12 +57,12 @@ const questionsAndAnswers = [
   {
     question: "What if I'm not from Kingston?",
     answer:
-      "Encountering a 307 status? We'll be sending buses to Kingston from Ottawa and Toronto. If you can make it to either of those cities, we'll reimburse for your cost to get there (GO Buses preferred)."
+      "Find a way to Kingston. You can take a choo choo or a vroom vroom or a splish splash or a flip flap."
   },
   {
     question: "How do I apply?",
     answer:
-      "Applications are out now! Click the button at the top of the page to apply. You don't need to be an expert hacker or to have been to a hackathon before - we just want to see what makes you creative and unique!"
+      "Follow the “Apply” button at the top of the page lmao."
   }
 ];
 
@@ -133,7 +133,7 @@ const FAQs = () => (
                 css={linkCss}
                 href="mailto:hello@qwacks.io"
               >
-                hello@qhacks.io
+                hello@qwacks.io
               </a>{" "}
               or on{" "}
               <a
