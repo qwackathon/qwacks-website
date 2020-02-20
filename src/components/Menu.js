@@ -3,7 +3,7 @@ import ScrollSpy from "react-scrollspy";
 
 import { withClientState } from "apollo-link-state";
 import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
-import mlhBanner from "../assets/img/icons/mlhBanner.svg";
+import mlhBanner from "../assets/img/icons/mlhbanner.svg";
 
 
 const Menu = (props) => {

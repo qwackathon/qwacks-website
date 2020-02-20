@@ -47,7 +47,7 @@ module.exports = {
         background_color: "#00205b",
         theme_color: "#c81c2e",
         display: "minimal-ui",
-        icon: "src/assets/img/icons/PaintCrown.svg"
+        icon: "src/assets/img/icons/PaintCrown.png"
       }
     },
     "gatsby-plugin-offline",
