@@ -67,8 +67,13 @@ const Sponsors = () => (
         <div>
           <h1>Sponsors</h1>
           <h2 css={{
-            paddingTop: "20px"
-          }}>We're letting literally anyone sponsor. Sponsorship package coming soon.</h2>
+            paddingTop: "25px",
+            fontWeight: 400,
+            fontSize: "16px",
+            paddingRight: "60px",
+            paddingLeft: "60px",
+            lineHeight: "30px"
+          }}>We're letting literally anyone sponsor. From Fortune 500 companies to folks with $5 in their pocket, money is money is money. <b css={{fontWeight: 500}}>Sponsorship package coming soon.</b></h2>
           {/* Giga */}
           <div
             css={{

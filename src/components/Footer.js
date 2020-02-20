@@ -21,15 +21,20 @@ const navigateLinks = [
   //   dataCy: "footer-2018-link"
   // },
    {
-     label: "Stupid Hacks Toronto",
-     url: "http://www.stupidhackathon.com/",
-     dataCy: "footer-lhd-link"
+      label: "Stupid Hacks Toronto",
+      url: "http://www.stupidhackathon.com/",
+      dataCy: "footer-stupidhacks-link"
    },
-  // {
-  //   label: "QWacks Blog",
-  //   url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-  //   dataCy: "footer-blog-link"
-  // },
+   {
+      label: "Michael Reeves",
+      url: "https://www.youtube.com/channel/UCtHaxi4GTYDpJgMSGy7AeSw",
+      dataCy: "footer-michaelreeves-link"
+   },
+   {
+      label: "Simone Giertz",
+      url: "https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ",
+      dataCy: "footer-michaelreeves-link"
+   }
   // {
   //   label: "QWacks Dashboard",
   //   url: "https://app.qwacks.io",
@@ -132,7 +137,7 @@ const Footer = () => (
               [smallScreens]: { zIndex: "4", paddingLeft: "24px", paddingRight: "24px" }
             }}
           >
-            QWacks is a bad idea.
+            Despite what it may seem, QWacks is an actual event and the bozos above have put a lot of work into it. QWacks is still a bad idea though.
           </p>
           {/* <h3>Stay Connected</h3> */}
           {/* <p
@@ -241,7 +246,7 @@ const Footer = () => (
           >
             {navigateLinks.map(({ label, url, dataCy }) => (
               <li key={url}>
-                <a href={url} data-cy={dataCy}>{`${label} ▸`}</a>
+                <a href={url} target="_blank" data-cy={dataCy}>{`${label} ▸`}</a>
               </li>
             ))}
           </ul>

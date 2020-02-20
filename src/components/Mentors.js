@@ -15,29 +15,29 @@ import kermit from "../assets/img/headshots/kermit_slim.png";
 const QWACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
 
 const mentors1 = [
-    {
-    name: "Kermit the Frog",
-    title: "Sales Engineering Lead",
-    headshot: kermit,
-    companyLogo: ada,
-    companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    logoHeight: "40px"
-    },
-    {
-    name: "Kermit the Frog",
-    title: "Machine Learning Manager",
-    headshot: kermit,
-    companyLogo: ada,
-    companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    logoHeight: "40px"
-    },
-    {
-    name: "Kermit the Frog",
-    title: "Software Engineer",
-    headshot: kermit,
-    companyLogo: kindred,
-    companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    }
+    // {
+    // name: "Kermit the Frog",
+    // title: "Sales Engineering Lead",
+    // headshot: kermit,
+    // companyLogo: ada,
+    // companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+    // logoHeight: "40px"
+    // },
+    // {
+    // name: "Kermit the Frog",
+    // title: "Machine Learning Manager",
+    // headshot: kermit,
+    // companyLogo: ada,
+    // companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+    // logoHeight: "40px"
+    // },
+    // {
+    // name: "Kermit the Frog",
+    // title: "Software Engineer",
+    // headshot: kermit,
+    // companyLogo: kindred,
+    // companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+    // }
 
 ];
 
@@ -49,39 +49,39 @@ const mentors2 = [
   // companyLogo: microsoft,
   // companyUrl: "https://www.microsoft.com"
   // },
-  {
-    name: "Kermit the Frog",
-    title: "Software Engineer",
-    headshot: kermit,
-    companyLogo: google,
-    companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-    logoMarginTop: "-15px",
-    logoHeight: "80px"
-  },
-  {
-  name: "Kermit the Frog",
-  title: "Software Engineer",
-  headshot: kermit,
-  companyLogo: twitter,
-  companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-  logoMarginTop: "-15px",
-  logoHeight: "80px"
-  },
-  {
-  name: "Kermit the Frog",
-  title: "Co-Founder",
-  headshot: kermit,
-  companyLogo: makeship,
-  companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-  logoMarginTop: "-5px",
-  }
+  // {
+  //   name: "Kermit the Frog",
+  //   title: "Software Engineer",
+  //   headshot: kermit,
+  //   companyLogo: google,
+  //   companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+  //   logoMarginTop: "-15px",
+  //   logoHeight: "80px"
+  // },
+  // {
+  // name: "Kermit the Frog",
+  // title: "Software Engineer",
+  // headshot: kermit,
+  // companyLogo: twitter,
+  // companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+  // logoMarginTop: "-15px",
+  // logoHeight: "80px"
+  // },
+  // {
+  // name: "Kermit the Frog",
+  // title: "Co-Founder",
+  // headshot: kermit,
+  // companyLogo: makeship,
+  // companyUrl: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
+  // logoMarginTop: "-5px",
+  // }
 
 ];
 
 export default () => (
   <div css={{ marginBottom: "16px", marginTop: "25px" }}>
     <h1 css={{ color: "#ffffff", fontWeight: "600", fontSize: "28px" ,textAlign: "center",position: "relative",}}>
-      Mentors and Judges
+      {/*Mentors and Judges*/}
     </h1>
     <div
       css={{

@@ -74,7 +74,7 @@ const points = [
     project: "Screen Blue Light Enhancer",
     image: casper,
     text:
-      "A useful app that sets your phone’s screen to maximum brightness between 9 pm and 7 am. It also increases blue light levels to keep you from getting sleepy.",
+      "A useful app that sets your phone’s screen to maximum brightness between 9 PM and 7 AM. It also increases blue light levels to keep you from getting sleepy.",
     sample: brightPhone
   },
   {
@@ -82,7 +82,7 @@ const points = [
     project: "Rosetta Stoned",
     image: elon,
     text:
-      "It's Rosetta Stone but for blowing fat clouds.",
+      "Learn the language of love by blowing clouds directly into your microphone!",
     sample: rosettaStoned
   }
 ];

@@ -4,21 +4,20 @@ import ContentWrapper from "./ContentWrapper";
 const linkCss = {
   position: "relative",
   zIndex: "4",
-  textDecoration: "underline",
-  color: "#fcbdff",
-  fontWeight: 500
+  color: "#26BCE5",
+  fontWeight: 450
 };
 
 const questionsAndAnswers = [
   {
     question: "What is a wackathon?",
     answer:
-      "A Wackathon is similar to a hackathon hackathon but celebrates all awful ideas. Whereas some hackathons have a small challenge with a smaller prize, this hackathon is dedicated entirely to bad ideas. Students will have the opportunity to create an idea using software or hardware as well as create the best business presentation. At the current time, we can’t guarantee any hardware at the event but we encourage students to bring their own."
+      "A Wackathon is similar to a hackathon but is dedicated to and celebrates bad ideas. Students will have the opportunity to create an idea using software, hardware, as well as the best business idea. At the current time, we can’t guarantee any hardware at the event but we encourage students to bring their own."
   },
   {
     question: "Who is invited?",
     answer:
-      "All undergrads of any skill level are encouraged to apply to QWacks! All you need is a bad idea in tech/data/design and a willingness to learn! We welcome applicants from all fields of study."
+      "Anyone of any skill level are encouraged to apply to QWacks! All you need is a bad idea in tech/data/design and a willingness to learn! We welcome applicants from all fields of study."
   },
   {
     question: "Where is it?",
@@ -27,7 +26,7 @@ const questionsAndAnswers = [
   },
   {
     question: "How much does it cost to attend?",
-    answer: "The event will cost anywhere from $5 - $10, and you may ask “Why are we paying for a hackathon? They’re always free!” Well guess what bozo this is a WACKATHON, notice the difference? We take W’s. The reason for the cost is to give participants the most rewarding experience possible! The money will mainly go towards prizes and food for YOU!"
+    answer: "The event will cost anywhere from $5 - $10, and you may ask “Why are we paying for a hackathon? They’re always free!” Well guess what bozo this is a WACKATHON, notice the difference? We take W’s. The reason for the cost is to give participants the most rewarding experience possible. The money will mainly go towards prizes and food for YOU!"
   },
   {
     question: "What if I don’t have a team?",
@@ -42,7 +41,16 @@ const questionsAndAnswers = [
     question: "Is there a Code of Conduct?",
     answer: (
       <span>
-        Yes! Wackers can create anything that is not homophobic, transphobic, racist, ablest, misogynistic, or harmful perpetuation of stereotypes.
+        Absolutely. All projects and behavior must follow{" "}
+        <a
+          css={linkCss}
+          href="https://www.queensu.ca/universityrelations/equity"
+          rel="external noopener"
+          target="_blank"
+        >
+        Queen’s Guiding Philosophy on Equity, Diversity and Inclusivity.
+        </a>
+       The goal of QWacks is to provide a positive and inclusive experience for everyone involved.
       </span>
     )
   },

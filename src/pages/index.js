@@ -54,7 +54,7 @@ export default () => {
    
       <div css={{ 
         //backgroundImage: "repeating-linear-gradient(#855988, #070b34 20%, #855988, #070b34);",
-        backgroundImage: "repeating-linear-gradient(#A059A4, #26BCE5 20%, #22CC6C, #A059A4);",
+        backgroundImage: "repeating-linear-gradient(#804783, #26BCE5 20%, #1EB760, #804783);",
         backgroundSize: "cover",
         maxWidth: "100%",
         overflowY: "hidden",
@@ -118,7 +118,7 @@ export default () => {
           <Features />
           <SellingPoints />
           <EventSchedule />
-          {/*<Speakers />*/}
+          <Speakers />
           <Sponsors />
           <FAQs />
           <Footer />

@@ -63,7 +63,7 @@ const schedule = [
     },
     {
     startDate: "2020-03-21T17:00:00",
-    endDate: "2020-03-21T18:00:00",
+    endDate: "2020-03-21T18:30:00",
     eventName: "Judging",
     subtitle: "",
     location: "Mackintosh-Corry D201"
@@ -190,7 +190,7 @@ class EventSchedule extends Component {
               color: "white"
             }}
           >
-            *Snap Spectacles Tier Sponsors get to host a mini-event at any point during wacking. More details in the sponsor package. 
+            *TBD Tier Sponsors get to host a mini-event at any point during wacking. More details in the sponsor package. 
           </p>
         </section>
       </ContentWrapper>
