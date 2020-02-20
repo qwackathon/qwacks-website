@@ -35,7 +35,7 @@ const questionsAndAnswers = [
   },
   {
     question: "Can I work on a past project?",
-    answer: "Please no. If you’ve already created something like the examples we’ve given then shame on you - is that how you really use your time?"
+    answer: "Please no. If you’ve already created something like the examples we’ve given then shame on you - is that how you really use your time? Then again, I don't see any cops around..."
   },
   {
     question: "Is there a Code of Conduct?",
@@ -62,7 +62,7 @@ const questionsAndAnswers = [
   {
     question: "How do I apply?",
     answer:
-      "Follow the “Apply” button at the top of the page lmao."
+      "Click the “Apply” button at the top of the page lmao."
   }
 ];
 

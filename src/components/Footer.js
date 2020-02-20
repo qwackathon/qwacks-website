@@ -21,7 +21,7 @@ const navigateLinks = [
   //   dataCy: "footer-2018-link"
   // },
    {
-      label: "Stupid Hacks Toronto",
+      label: "Stupid Hacks",
       url: "http://www.stupidhackathon.com/",
       dataCy: "footer-stupidhacks-link"
    },
@@ -34,6 +34,11 @@ const navigateLinks = [
       label: "Simone Giertz",
       url: "https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ",
       dataCy: "footer-michaelreeves-link"
+   },
+   {
+      label: "Nathan Fielder",
+      url: "https://www.nathanfielder.com/",
+      dataCy: "footer-nathanfielder-link"
    }
   // {
   //   label: "QWacks Dashboard",

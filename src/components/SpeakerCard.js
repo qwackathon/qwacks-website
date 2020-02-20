@@ -89,7 +89,7 @@ class SpeakerCard extends Component {
                   lineHeight: "23px"
                 }}
               >
-                <a href={this.props.companyUrl}><b css={{fontSize: "15px"}}>{this.props.company}</b></a>
+                <a href={this.props.companyUrl} target="_blank"><b css={{fontSize: "15px"}}>{this.props.company}</b></a>
               </h2>
             </div>
           </div>

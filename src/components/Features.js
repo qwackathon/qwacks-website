@@ -165,7 +165,7 @@ const Features = () => (
             <div {...caretCSS("#fedb01")} />
           </div>
             <p css={blurbStyle}>
-              For once, being a disappointment is a good thing! Present your project to a panel of judges who will grade your project on <b css={{fontWeight: 500}}>originality</b>, <b css={{fontWeight: 500}}>execution</b> and <b css={{fontWeight: 500}}>utter uselessness.</b> They're wasting their time coming so you should too! Qwacks is a unique experience to demonstrate your idiocracy to the world, and to be praised for it! So don't miss out!
+              For once, being a disappointment is a good thing! Present your project to a panel of judges who will grade your project on <b css={{fontWeight: 500}}>originality</b>, <b css={{fontWeight: 500}}>execution</b> and <b css={{fontWeight: 500}}>utter uselessness.</b> They're wasting their time participating so you should too! QWacks is a unique experience to demonstrate your idiocracy to the world, and to be praised for it! So don't miss out!
             </p>
             <FeaturesIcons
               list={[

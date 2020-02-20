@@ -48,10 +48,10 @@ const Sponsors = () => (
             paddingTop: "25px",
             fontWeight: 400,
             fontSize: "16px",
-            paddingRight: "60px",
-            paddingLeft: "60px",
+            paddingRight: "70px",
+            paddingLeft: "70px",
             lineHeight: "30px"
-          }}>We're letting literally anyone sponsor. From Fortune 500 companies to folks with $5 in their pocket, money is money is money. <b css={{fontWeight: 500}}>Sponsorship package coming soon.</b></h2>
+          }}>We're letting literally anyone sponsor. From Fortune 500 companies to folks with $5 in their pocket, money is money is money. If you sponsor $5+ we'll put your name and photo on the site and you can be associated to this dumpster fire. <p><b css={{fontWeight: 500}}>Sponsorship package coming soon.</b></p></h2>
           {/* Giga */}
           <div
             css={{
