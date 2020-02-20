@@ -69,7 +69,7 @@ const Menu = (props) => {
         }}
       >
         <img
-          src={mlhBanner}
+          src={monkeyToaster}
           alt="Major League Hacking 2020 Hackathon Season"
           css={{
             height: "150px"
