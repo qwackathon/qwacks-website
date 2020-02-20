@@ -3,7 +3,7 @@ import ScrollSpy from "react-scrollspy";
 
 import { withClientState } from "apollo-link-state";
 import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
-//import mlhBanner from "../assets/img/icons/mlhBanner.png";
+import mlhBanner from "../assets/img/icons/mlhBanner.svg";
 
 
 const Menu = (props) => {
@@ -69,7 +69,7 @@ const Menu = (props) => {
         }}
       >
         <img
-          src={monkeyToaster}
+          src={mlhBanner}
           alt="Major League Hacking 2020 Hackathon Season"
           css={{
             height: "150px"
