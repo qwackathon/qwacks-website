@@ -69,7 +69,7 @@ const Speakers = () => (
     //   backgroundColor: "#f8f8f8",
       position: "relative"
     }}
-    id="speakers"
+    id="bozos"
   >
     <ContentWrapper>
       <h1

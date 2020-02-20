@@ -99,7 +99,7 @@ const OpeningSummary = () => (
             allowFullScreen
             css={{
               width: "500px",
-              height: "281px",
+              height: "361px",
               "@media(max-width: 1215px)": {
                 width: "400px",
                 height: "225px"

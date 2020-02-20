@@ -39,7 +39,7 @@ const flexChildStyle = {
   flex: 1,
   textAlign: "center",
   minWidth: "300px",
-  margin: "0 28px 32px 28px",
+  margin: "0 28px 5px 28px",
   maxWidth: "510px"
 };
 
@@ -99,7 +99,7 @@ const Features = () => (
             <div {...caretCSS("#fedb01")} />
           </div>
             <p css={blurbStyle}>
-              Too often startups and tech companies try to do good for humanity. It's the useless products that are overlooked! Juicero, Goop, SnapChat Spectacles! Silicon Valley is flooded with bad ideas with room for more. QWacks is a prime opportunity to build something from the ground up, that has no use, no purpose, but is delightfully ridiculous.            </p>
+              Too often do startups and tech companies try to do good for humanity. It's the useless products that are overlooked: Juicero, Goop, SnapChat Spectacles! Silicon Valley is flooded with bad ideas, with room for more. QWacks is a prime opportunity to build something from the ground up, that has no use, no purpose, no point, but is delightfully ridiculous.            </p>
             <FeaturesIcons
               list={[
                 {

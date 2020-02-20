@@ -12,12 +12,12 @@ const questionsAndAnswers = [
   {
     question: "What is a wackathon?",
     answer:
-      "A Wackathon is similar to a hackathon but is dedicated to and celebrates bad ideas. Students will have the opportunity to create an idea using software, hardware, as well as the best business idea. At the current time, we can’t guarantee any hardware at the event but we encourage students to bring their own."
+      "A Wackathon is similar to a hackathon but is dedicated to and celebrates bad ideas. Students will have the opportunity to create something using software, hardware, as well as the best business idea. At the current time, we can’t guarantee any hardware at the event but we encourage wackers to bring their own."
   },
   {
     question: "Who is invited?",
     answer:
-      "Anyone of any skill level are encouraged to apply to QWacks! All you need is a bad idea in tech/data/design and a willingness to learn! We welcome applicants from all fields of study."
+      "Anyone of any skill level is encouraged to apply to QWacks! All you need is a bad idea in tech/data/design or whatever, and a willingness to learn! We welcome applicants from all fields of study."
   },
   {
     question: "Where is it?",
