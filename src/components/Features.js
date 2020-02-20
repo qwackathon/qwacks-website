@@ -76,10 +76,9 @@ const Features = () => (
           }}
         >
           <div css={flexChildStyle}>
-            <h1>The Dumber the Better</h1>
+            <h1>The Wacker the Better</h1>
             <p css={blurbStyle}>
-              Too often do startups and tech companies try to do good for humanity. It's the useless products that are overlooked! Qwacks is a prime opportunity to build something from the ground up, that has no use, no purpose, but is a good meme.
-            </p>
+              Too often startups and tech companies try to do good for humanity. It's the useless products that are overlooked! Juicero, Goop, SnapChat Spectacles! Silicon Valley is flooded with bad ideas with room for more. QWacks is a prime opportunity to build something from the ground up, that has no use, no purpose, but is delightfully ridiculous.            </p>
             <FeaturesIcons
               list={[
                 {

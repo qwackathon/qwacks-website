@@ -181,6 +181,17 @@ class EventSchedule extends Component {
           <MediaQuery query="screen and (max-width: 760px)">
             <EventScheduleCompressedTable data={data} />
           </MediaQuery>
+          <p
+            id="*"
+            css={{
+              textAlign: "center",
+              position: "relative",
+              zIndex: 2,
+              color: "white"
+            }}
+          >
+            *Snap Spectacles Tier Sponsors get to host a mini-event at any point during wacking. More details in the sponsor package. 
+          </p>
         </section>
       </ContentWrapper>
     );

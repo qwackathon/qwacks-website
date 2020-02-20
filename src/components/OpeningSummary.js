@@ -71,8 +71,13 @@ const OpeningSummary = () => (
             <div {...caretCSS("#c81c2e")} />
             <div {...caretCSS("#fedb01")} />
           </div>
-          <p css={{ lineHeight: "26px", fontColor: "#000000" }}>
+          <p css={{ lineHeight: "26px", fontColor: "#000000"}}>
           Join some creative hackers waste 24 hours of their lives building something completely and utterly useless, for the good of no one. Ever dream of something that would make society a worse place? If you have, then QWacks is for you!
+         </p>
+         <p css={{ lineHeight: "26px", fontColor: "#000000", paddingTop: "20px" }}>
+         Check out
+         <a href="http://stupidhacktoronto.com/" target="_blank" css={{ fontSize: "16px" }} > Stupid Hacks Toronto. </a>
+         If it worked in Toronto, it'll work in Kingston.
          </p>
         </div>
         <div
