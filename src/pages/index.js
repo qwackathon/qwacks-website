@@ -13,7 +13,6 @@ import Sponsors from "../components/Sponsors";
 import FAQs from "../components/FAQs";
 import Footer from "../components/Footer"
 import favicon from "../assets/img/icons/favicon.ico";
-import sharingImage from "../assets/img/logo/sharingImage2020.png";
 import MailingListSignup from "../components/MailingListSignup";
 import Features from "../components/Features";
 import EventSchedule from "../components/EventSchedule";
@@ -66,12 +65,12 @@ export default () => {
             {
               name: "description",
               content:
-                "QHacks is Queen’s University’s annual hackathon, happening January 31st - February 2nd, 2020."
+                "QWacks is Queen’s University’s first ever wackathon, happening March 20th - March 21st, 2020."
             },
             {
               name: "keywords",
               content:
-                "Hackathon, Queen's University, Kingston, QHacks, Queensu"
+                "Wackathon, Queen's University, Kingston, QWacks, Queensu"
             },
             {
               name: "viewport",
@@ -83,20 +82,16 @@ export default () => {
             },
             {
               property: "og:url",
-              content: "https://qhacks.io/"
+              content: "https://qwacks.io/"
             },
             {
               property: "og:title",
               content: "QWacks"
             },
             {
-              property: "og:image",
-              content: sharingImage
-            },
-            {
               property: "og:description",
               content:
-                "QHacks is back for round five! We're bringing in students from all over North America to come together for a wild 36 hours - designing, developing, demoing, cup-stacking, and foosball-playing at our home base at Queen's University. Whether you're a first timer or a seasoned veteran, QHacks definitely has something to satisfy your interests. This weekend is about inclusiveness for all disciplines - students from any level of skill, from any field of study are encouraged to bring their innovative ideas for a weekend of creative problem solving! The only prerequisites for this weekend are a love for tech and drive to learn."
+                "QWacks is gonna be a hoot maybe."
             },
             {
               property: "og:site_name",

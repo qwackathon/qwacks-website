@@ -1,16 +1,12 @@
 {
-  "name": "qhacks-website",
+  "name": "qwacks-website",
   "version": "0.0.1",
-  "description": "Website for QHacks!",
-  "author": "QHacks Engineering",
-  "homepage": "https://github.com/qhacks/qhacks-website#readme",
-  "bugs": {
-    "url": "https://github.com/qhacks/qhacks-website/issues"
-  },
+  "description": "Website for QWacks!",
+  "author": "QWacks",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qhacks/qhacks-website.git"
+    "url": "https://github.com/barrelmaker/qwacks-website.git"
   },
   "husky": {
     "hooks": {

@@ -1,8 +1,6 @@
 import React from "react";
 import ScrollSpy from "react-scrollspy";
 
-import colored from "../assets/img/logo/qhacksCrown-colored.svg";
-import coloredWordmark from "../assets/img/logo/qhacksWordmark-colored.svg";
 import { withClientState } from "apollo-link-state";
 import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
 import mlhBanner from "../assets/img/icons/mlhBanner.png";
@@ -50,20 +48,7 @@ const Menu = (props) => {
             }
           }}
           src={monkeyToaster}
-          alt="QHacks Crown"
-        />
-        <img
-          css={{
-            zIndex: "9999",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-            width: "95px",
-            "@media(min-width:820px)": {
-              display: "none"
-            }
-          }}
-          src={coloredWordmark}
-          alt="QHacks Crown"
+          alt="Monkey Toaster"
         />
       </a>
       <a

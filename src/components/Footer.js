@@ -6,10 +6,8 @@ import ContentWrapper from "./ContentWrapper";
 
 import mail from "../assets/img/icons/socialMail.svg";
 import twitter from "../assets/img/icons/socialTwitter.svg";
-import logo from "../assets/img/logo/qhacksCrown-white.svg";
 import facebook from "../assets/img/icons/socialFacebook.svg";
 import instagram from "../assets/img/icons/socialInstagram.svg";
-import wordmark from "../assets/img/logo/qhacksWordmark-white.svg";
 import MediaQuery from "react-responsive";
 import QWacksLogoTyped from "../assets/img/logo/QWacks-logo-typed.png";
 
@@ -33,8 +31,8 @@ const navigateLinks = [
   //   dataCy: "footer-blog-link"
   // },
   // {
-  //   label: "QHacks Dashboard",
-  //   url: "https://app.qhacks.io",
+  //   label: "QWacks Dashboard",
+  //   url: "https://app.qwacks.io",
   //   dataCy: "footer-dashboard-link"
   // },
   // {
@@ -119,9 +117,9 @@ const Footer = () => (
               height="64px"
               src={monkeyToaster}
               css={{ marginBottom: "5px", paddingRight: "13px" }}
-              alt="QHacks Crown"
+              alt="Monkey Toaster"
             />
-            <img height="67px" src={QWacksLogoTyped} alt="QHacks Wordmark" />
+            <img height="67px" src={QWacksLogoTyped} alt="QWacks Wordmark" />
           </span>
           <p
             css={{
@@ -190,7 +188,7 @@ const Footer = () => (
             <a
               data-cy="footer-dev-plug"
               css={{ ...finePrint, fontWeight: "400", position: "relative", zIndex: "4" }}
-              href="https://github.com/qhacks/qhacks-website/tree/dev-2020"
+              href="https://github.com/barrelmaker/qwacks-website/"
               target="_blank"
               rel="external noopener"
             >
@@ -356,7 +354,7 @@ const Footer = () => (
           <a
             data-cy="footer-dev-plug"
             css={{ ...finePrint, position: "relative", zIndex: "4", fontWeight: "400" }}
-            href="https://github.com/qhacks/qhacks-website/tree/dev-2020"
+            href="https://github.com/barrelmaker/qwacks-website/"
             target="_blank"
             rel="external noopener"
           >
@@ -366,7 +364,7 @@ const Footer = () => (
             data-cy="footer-copyright-notice"
             css={{ ...finePrint, marginTop: "6px", paddingBottom: "32px" }}
           >
-            Copyright © {moment().year()} QHacks
+            Copyright © {moment().year()} QWacks
           </p>
         </div>
       </div>

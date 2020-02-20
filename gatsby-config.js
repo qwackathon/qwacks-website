@@ -1,6 +1,6 @@
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://qhacks.io',
+  URL: NETLIFY_SITE_URL = 'https://qwacks.fun',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV
 } = process.env;
@@ -47,7 +47,7 @@ module.exports = {
         background_color: "#00205b",
         theme_color: "#c81c2e",
         display: "minimal-ui",
-        icon: "src/assets/img/logo/qhacksAppIcon.png"
+        icon: "src/assets/img/icons/PaintCrown.png"
       }
     },
     "gatsby-plugin-offline",

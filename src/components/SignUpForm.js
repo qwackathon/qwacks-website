@@ -72,7 +72,7 @@ class SignUpForm extends Component {
       .mutate({
         variables: {
           mailingListSlug: "announcements-newsletter",
-          eventSlug: "qhacks-2019",
+          eventSlug: "qwacks-2019",
           input: {
             email
           }

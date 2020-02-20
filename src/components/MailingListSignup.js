@@ -31,7 +31,7 @@ const MailingListSignup = (props) => (
           textAlign: "center"
         }}
       >
-        Sign up for our mailing list to receive important QHacks announcements!
+        Sign up for our mailing list to receive important QWacks announcements!
       </p>
       <input
       placeholder="This field is non-functional"

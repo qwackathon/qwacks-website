@@ -3,9 +3,7 @@ import React from "react";
 import cubeswebp from "../assets/img/icons/mobileMenuCubes.webp";
 import menuClose from "../assets/img/icons/mobileMenuClose.svg";
 import hamburger from "../assets/img/icons/mobileMenuOpen.svg";
-import word from "../assets/img/logo/qhacksWordmark-white.svg";
 import cubespng from "../assets/img/icons/mobileMenuCubes.png";
-import logo from "../assets/img/logo/qhacksCrown-white.svg";
 
 const MobileMenu = (props) => (
   <div
@@ -71,19 +69,8 @@ const MobileMenu = (props) => (
           }}
         >
           <div>
-            <img
-              src={logo}
-              css={{ paddingBottom: "11px" }}
-              alt="QHacks Crown"
-            />
           </div>
           <div css={{ paddingBottom: "52px" }}>
-            <img
-              src={word}
-              width="134px"
-              height="34.8px"
-              alt="QHacks Wordmark"
-            />
           </div>
           {props.menuItems.map((i) => (
             <div key={i} css={{ paddingBottom: "24px" }}>

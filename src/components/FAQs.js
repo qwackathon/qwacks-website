@@ -23,7 +23,7 @@ const questionsAndAnswers = [
   {
     question: "Where is it?",
     answer:
-      "QHacks will be taking place at Queen's University in the city of Kingston, Ontario. The event will be held in Mitchell Hall. Don’t worry about getting lost! We will have maps for you and volunteers all over campus to guide the way."
+      "QWacks will be taking place at Queen's University in the city of Kingston, Ontario. The event will be held in Mackintosh-Corry Room D201."
   },
   {
     question: "How much does it cost to attend?",

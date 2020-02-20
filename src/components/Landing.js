@@ -13,7 +13,6 @@ import Monkey from "../assets/img/icons/Monkey3.svg";
 import paintCrown from "../assets/img/icons/paintCrown.png";
 
 import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
-import word from "../assets/img/logo/qhacksWordmark-white.svg";
 
 const applyButtonCSS = {
   alignItems: "center",
@@ -112,14 +111,14 @@ const Landing = () => (
                 paddingBottom: "8px"
               }
             }}
-            alt="QHacks Wordmark"
+            alt="QWacks Paint Crown"
           />
 
           <h1 css={{fontSize: "125px", color: "white"}}>QWacks</h1>
 
           
           <h2
-            data-cy="qhacks-information"
+            data-cy="qwacks-information"
             css={{
               position: "relative",
               zIndex: "2",
@@ -165,7 +164,7 @@ const Landing = () => (
             Apply Soonish
             </ActionButton>
             <h2
-            data-cy="qhacks-tagline"
+            data-cy="qwacks-tagline"
             css={{
               position: "relative",
               zIndex: "2",

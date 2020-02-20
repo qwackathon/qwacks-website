@@ -12,7 +12,7 @@ import makeship from "../assets/img/mentors/logos/makeship.png";
 // Mentor headshots
 import kermit from "../assets/img/headshots/kermit_slim.png";
 
-const QHACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
+const QWACKS_COLORS = ["#00205b", "#fedb01", "#c81c2e"];
 
 const mentors1 = [
     {
@@ -104,7 +104,7 @@ export default () => (
         <MentorCard
           {...mentor}
            key={mentor.name}
-          borderColor={QHACKS_COLORS[i % 3]}
+          borderColor={QWACKS_COLORS[i % 3]}
           
         />
       ))}
@@ -131,7 +131,7 @@ export default () => (
         <MentorCard
           {...mentor}
            key={mentor.name}
-          borderColor={QHACKS_COLORS[i % 3]}
+          borderColor={QWACKS_COLORS[i % 3]}
           
         />
       ))}
