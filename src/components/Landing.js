@@ -10,6 +10,8 @@ import { Tween, Timeline } from 'react-gsap';
 import Toaster from "../assets/img/icons/Toaster2.svg";
 import Monkey from "../assets/img/icons/Monkey3.svg";
 import paintCrown from "../assets/img/icons/PaintCrown.svg";
+import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
+
 
 const applyButtonCSS = {
   alignItems: "center",
@@ -93,7 +95,7 @@ const Landing = () => (
 
           <img
             // class="center"
-            src={paintCrown}
+            src={monkeyToaster}
             css={{
               display: "block",
               marginLeft: "auto",
