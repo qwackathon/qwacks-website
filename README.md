@@ -1,4 +1,4 @@
-# qwacks-website
+# QWacks Website
 
 To run locally, simply install all dependencies, and then run the page using Gatsby.
 ```
