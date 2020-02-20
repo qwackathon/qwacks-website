@@ -5,28 +5,6 @@ import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
 
 import placeholder from "../assets/img/sponsors/placeholder.png";
-import sunlifeLogo from "../assets/img/sponsors/sunlife.png";
-import voiceflowLogo from "../assets/img/sponsors/voiceflow.jpeg";
-import rpaBotProLogo from "../assets/img/sponsors/rpaBotPro.png";
-import tdLogo from "../assets/img/sponsors/td.png";
-import scotiabankLogo from "../assets/img/sponsors/scotiabank.svg";
-import ritualLogo from "../assets/img/sponsors/ritual.svg";
-import sketchLogo from "../assets/img/sponsors/sketch.svg";
-import mosaicLogo from "../assets/img/sponsors/mosaic.png";
-import wolframLogo from "../assets/img/sponsors/wolfram.svg";
-
-import qicLogo from "../assets/img/sponsors/qic.svg";
-import eceLogo from "../assets/img/sponsors/ece.svg";
-import mmieLogo from "../assets/img/sponsors/mmie.svg";
-import mlhLogo from "../assets/img/sponsors/mlh-black.svg";
-import githubLogo from "../assets/img/sponsors/github.svg";
-import sodexoLogo from "../assets/img/sponsors/sodexo.svg";
-import pccLogo from "../assets/img/sponsors/pcc.png";
-import kingstonLogo from "../assets/img/sponsors/kingston.svg";
-import bloombergLogo from "../assets/img/sponsors/bloomberg.svg";
-import stickermuleLogo from "../assets/img/sponsors/stickermule.svg";
-import schoolOfComputingLogo from "../assets/img/sponsors/schoolOfComputing.png";
-import asusAmsEngSocLogo from "../assets/img/sponsors/asusAmsEngSoc.png";
 
 import gogurt from "../assets/img/sponsors/gogurt.png";
 import possiblyYou from "../assets/img/sponsors/possibly-you.gif";
@@ -127,7 +105,7 @@ const Sponsors = () => (
                     }
                   }}
                   src={possiblyYou}
-                  alt="SunLife Logo"
+                  alt="Possibly You"
                 />
               </SponsorLink>
 

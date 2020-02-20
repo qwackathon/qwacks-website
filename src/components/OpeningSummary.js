@@ -3,9 +3,6 @@ import { css } from "glamor";
 
 import ContentWrapper from "./ContentWrapper";
 
-import uselessjpg from "../assets/img/selling_points/useless.jpg";
-import uselesswebp from "../assets/img/selling_points/useless.webp";
-
 import ketchup from "../assets/img/selling_points/ketchup3.gif";
 
 import cubes1webp from "../assets/img/icons/monkey-toaster-float-1.webp";
@@ -94,15 +91,26 @@ const OpeningSummary = () => (
           }}
           >
          
-          <picture css={imgStyle}>
-            <source srcSet={ketchup} type="image/webp" />
-            <source srcSet={ketchup} type="image/jpg" />
-            <img
-                css={imgStyle}
-                src={ketchup}
-                alt="Useless wack"
-              />
-          </picture>
+         <iframe
+            title="Wack Idea"
+            src={ketchup}
+            frameBorder="0"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+            css={{
+              width: "500px",
+              height: "281px",
+              "@media(max-width: 1215px)": {
+                width: "400px",
+                height: "225px"
+              },
+              "@media(max-width: 1115px)": {
+                paddingTop: "40px",
+                width: "100%",
+                height: "100%"
+              }
+            }}
+            />
         </div>
         <picture
           css={{
