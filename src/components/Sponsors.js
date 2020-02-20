@@ -66,11 +66,13 @@ const Sponsors = () => (
 
         <div>
           <h1>Sponsors</h1>
-
+          <h2 css={{
+            paddingTop: "20px"
+          }}>We're letting literally anyone sponsor. Sponsorship package coming soon.</h2>
           {/* Giga */}
           <div
             css={{
-              marginTop: "50px",
+              marginTop: "40px",
               "@media(max-width: 500px)": {
                 marginBottom: "60px"
               }

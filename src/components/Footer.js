@@ -20,11 +20,11 @@ const navigateLinks = [
   //   url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
   //   dataCy: "footer-2018-link"
   // },
-  // {
-  //   label: "Local Hack Day",
-  //   url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
-  //   dataCy: "footer-lhd-link"
-  // },
+   {
+     label: "Stupid Hacks Toronto",
+     url: "http://www.stupidhackathon.com/",
+     dataCy: "footer-lhd-link"
+   },
   // {
   //   label: "QWacks Blog",
   //   url: "https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif",
@@ -220,7 +220,7 @@ const Footer = () => (
             }
           }}
         >
-          {/*<h3>Navigate</h3>*/}
+          <h3>Inspiration</h3>
           <ul
             css={{
               zIndex: "4",

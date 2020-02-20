@@ -13,12 +13,12 @@ const questionsAndAnswers = [
   {
     question: "What is a wackathon?",
     answer:
-      "A wackathon is a sprint-like event where people from a variety of backgrounds come together to collaborate on software and hardware projects."
+      "A Wackathon is similar to a hackathon hackathon but celebrates all awful ideas. Whereas some hackathons have a small challenge with a smaller prize, this hackathon is dedicated entirely to bad ideas. Students will have the opportunity to create an idea using software or hardware as well as create the best business presentation. At the current time, we can’t guarantee any hardware at the event but we encourage students to bring their own."
   },
   {
     question: "Who is invited?",
     answer:
-      "Any college or university student of any skill level! All you need is a passion for tech/data/design and a willingness to learn! We welcome applicants from all fields of study."
+      "All undergrads of any skill level are encouraged to apply to QWacks! All you need is a bad idea in tech/data/design and a willingness to learn! We welcome applicants from all fields of study."
   },
   {
     question: "Where is it?",
@@ -42,7 +42,7 @@ const questionsAndAnswers = [
     question: "Is there a Code of Conduct?",
     answer: (
       <span>
-        Yes! Wackers must not create anything offensive towards anyone. 
+        Yes! Wackers can create anything that is not homophobic, transphobic, racist, ablest, misogynistic, or harmful perpetuation of stereotypes.
       </span>
     )
   },

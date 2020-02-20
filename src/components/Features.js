@@ -90,12 +90,12 @@ const Features = () => (
                 {
                   icon: schools,
                   number: 1,
-                  text: "School"
+                  text: "School for now"
                 },
                 {
                   icon: hackers,
-                  number: 50,
-                  text: "Hackers maybe"
+                  number: 0,
+                  text: "Wackers as of right now"
                 }
               ]}
             />
@@ -140,17 +140,17 @@ const Features = () => (
                 {
                   icon: mentors,
                   number: 0,
-                  text: "Mentors"
+                  text: "Mentors at the moment"
                 },
                 {
                   icon: judges,
-                  number: 0,
-                  text: "Judges"
+                  number: 3,
+                  text: "Judges (actually)"
                 },
                 {
                   icon: challenges,
                   number: 0,
-                  text: "Challenges"
+                  text: "Challenges for now"
                 }
               ]}
             />

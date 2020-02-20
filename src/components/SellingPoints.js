@@ -50,7 +50,7 @@ const points = [
     project: "Bee Movie Transcriber",
     image: barry,
     text:
-      "A chrome extension that turns all the text on your page to soemthing from the bee movie script!",
+      "A chrome extension that turns all the text on your page to something from the bee movie script!",
     sample: beeMovieTranscriber
   },
   {
