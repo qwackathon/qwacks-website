@@ -77,7 +77,7 @@ const OpeningSummary = () => (
               expertise? No problem! QWacks will have 3 design categories:{" "}
               <b css={{ fontWeight: 500 }}>Software</b>,{" "}
               <b css={{ fontWeight: 500 }}>Gadgets</b> and{" "}
-              <b css={{ fontWeight: 500 }}>Business Ideas</b> Students from all
+              <b css={{ fontWeight: 500 }}>Business Ideas.</b> Students from all
               faculties are welcome to join us. It’s like the saying goes, if
               you give enough time to a bunch of monkeys coding on toasters,
               they’ll create something wonderful.{" "}
