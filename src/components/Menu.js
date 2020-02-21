@@ -53,7 +53,7 @@ const Menu = (props) => {
       </a>
       <a
         id="mlh-trust-badge"
-        href="http://qwacks.fun/static/mlhBanner-5237baeb74e1d653226b31a4226df5f1.png"
+        href="https://www.qwacks.fun/static/mlhBanner-5237baeb74e1d653226b31a4226df5f1.png"
         target="_blank"
         rel="external noopener"
         css={{
