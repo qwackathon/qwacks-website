@@ -9,6 +9,7 @@ import { Tween, Timeline } from 'react-gsap';
 
 import Toaster from "../assets/img/icons/Toaster2.svg";
 import Monkey from "../assets/img/icons/Monkey3.svg";
+import MonkeyBanana from "../assets/img/icons/monkeyBanana.svg";
 import paintCrown from "../assets/img/icons/PaintCrown.svg";
 import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
 
@@ -45,7 +46,7 @@ const Landing = () => (
   <Timeline totalProgress={progress2} paused>
     <Tween from={{ css: {opacity: 1, rotation: -20} }} to={{ css: {opacity: 0, rotation: 10} }}>
       <div className="animation">
-      <img src={Monkey} css={{transform: "scaleX(-1)", position: "absolute", width: "400px", right: "150px", top: "350px", overflowX: "hidden", "@media(max-width: 1400px)": {display: "none"}}}/>
+      <img src={MonkeyBanana} css={{transform: "scaleX(-1)", position: "absolute", width: "400px", right: "150px", top: "350px", overflowX: "hidden", "@media(max-width: 1400px)": {display: "none"}}}/>
       </div>
     </Tween>
   </Timeline>
