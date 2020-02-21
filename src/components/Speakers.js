@@ -11,45 +11,45 @@ const speakers = [
   {
     name: "Daniel Molyneaux",
     title: "Chief Embezzlement Officer",
-    company: "Centre for Advanced Computing",
+    company: "dan@qwacks.fun",
     description: " ",
     image: "https://cac.queensu.ca/wp-content/uploads/2019/05/Daniel.jpg",
-    companyUrl: "https://cac.queensu.ca/"
+    companyUrl: "mailto:dan@qwacks.fun"
   },
   {
     name: "Joshua Wade",
-    title: "Chief Propoganda Officer",
-    company: "HPVCL",
+    title: "Chief Propaganda Officer",
+    company: "josh@qwacks.fun",
     description: " ",
     image: "https://cac.queensu.ca/wp-content/uploads/2019/05/Josh.jpg",
-    companyUrl: "https://cac.queensu.ca/"
+    companyUrl: "mailto:josh@qwacks.fun"
 
   },
   {
     name: "Spencer Kelly",
     title: "Chief Dough Getter",
-    company: "CAC",
+    company: "spence@qwacks.fun",
     description: " ",
     image: "https://cac.queensu.ca/wp-content/uploads/2019/05/Spencer.jpg",
-    companyUrl: "https://cac.queensu.ca/"
+    companyUrl: "mailto:spence@qwacks.fun"
 
   },
   {
     name: "Cooper Leong",
     title: "Chief Hackerman",
-    company: "Cognitive Development Hub",
+    company: "coop@qwacks.fun",
     description: " ",
     image: "https://cac.queensu.ca/wp-content/uploads/2019/05/Cooper.jpg",
-    companyUrl: "https://cac.queensu.ca/"
+    companyUrl: "mailto:coop@qwacks.fun"
 
   },
   {
     name: "Evan Arsenault",
     title: "Chief Collision Avoidance",
-    company: "Queen's CAC",
+    company: "evan@qwacks.fun",
     description: " ",
     image: "https://cac.queensu.ca/wp-content/uploads/2019/05/Evan.jpg",
-    companyUrl: "https://cac.queensu.ca/"
+    companyUrl: "mailto:evan@qwacks.fun"
 
   }
 

@@ -121,7 +121,7 @@ const FAQs = () => (
               </p>
             </div>
           ))}
-          {/*}
+          
           <div css={{ paddingTop: "12px" }}>
             <h2 css={{ paddingBottom: "10px", fontWeight: "500", color:"white" }}>
               Have additional questions?
@@ -132,10 +132,11 @@ const FAQs = () => (
                 rel="external noopener"
                 target="_blank"
                 css={linkCss}
-                href="mailto:hello@qwacks.io"
+                href="mailto:coop@qwacks.fun"
               >
-                hello@qwacks.io
+                coop@qwacks.fun
               </a>{" "}
+              {/*
               or on{" "}
               <a
                 rel="external noopener"
@@ -145,9 +146,10 @@ const FAQs = () => (
               >
                 Facebook
               </a>
+            */}
             </p>
           </div>
-          */}
+
         </div>
       </div>
     </ContentWrapper>
