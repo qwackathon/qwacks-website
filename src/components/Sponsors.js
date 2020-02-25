@@ -1,14 +1,25 @@
 import React from "react";
 
 import SponsorLink from "./SponsorLink";
-import ActionButton from "./ActionButton";
+import SponsorPackageButton from "./SponsorPackageButton";
 import ContentWrapper from "./ContentWrapper";
 
 import placeholder from "../assets/img/sponsors/placeholder.png";
-
+import sponsorshipPackage from "../assets/img/sponsors/qwacks-sponsorship-package.pdf"
 import gogurt from "../assets/img/sponsors/gogurt.png";
 import possiblyYou from "../assets/img/sponsors/possibly-you.gif";
 
+const sponsorButtonCSS = {
+  alignItems: "center",
+  position: "relative",
+  zIndex: "2",
+  margin: "40px 0 20px auto",
+  "@media(max-width: 820px)": {
+    margin: "30px auto 45px auto",
+    padding: "5px 10px 5px 10px"
+    
+  }
+};
 
 const Sponsors = () => (
   <section
@@ -37,22 +48,39 @@ const Sponsors = () => (
           marginLeft: "auto",
           marginRight: "auto",
           textAlign: "center",
-          paddingTop: "40px",
+          paddingTop: "40px"
         }}
       >
         {/* Sponsors */}
 
         <div>
           <h1>Sponsors</h1>
-          <h2 css={{
-            paddingTop: "25px",
-            fontWeight: 400,
-            fontSize: "16px",
-            paddingRight: "70px",
-            paddingLeft: "70px",
-            lineHeight: "30px"
-          }}>We're letting literally anyone sponsor. From Fortune 500 companies to folks with $5 in their pocket, money is money is money. If you sponsor $5+ we'll put your name and photo on the site and you can be associated to this dumpster fire. <p><b css={{fontWeight: 500}}>Sponsorship package coming soon.</b></p></h2>
+          <h2
+            css={{
+              paddingTop: "25px",
+              fontWeight: 400,
+              fontSize: "16px",
+              paddingRight: "70px",
+              paddingLeft: "70px",
+              lineHeight: "30px"
+            }}
+          >
+            We're letting literally anyone sponsor. From Fortune 500 companies
+            to folks with $5 in their pocket, money is money is money. If you
+            sponsor $5+ we'll put your name and photo on the site and you can be
+            associated to this dumpster fire.
+          </h2>
           {/* Giga */}
+          <SponsorPackageButton
+              dataCy="apply-button"
+              backgroundColor="#00205B"
+              foregroundColor="#ffffff"
+              style={sponsorButtonCSS}
+              link={sponsorshipPackage}
+              type="rounded"
+            >
+              Sponsorship Package
+            </SponsorPackageButton>
           <div
             css={{
               marginTop: "40px",
@@ -88,7 +116,7 @@ const Sponsors = () => (
                 />
               </SponsorLink>
               <SponsorLink>
-              {/*<SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">*/}
+                {/*<SponsorLink url="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif">*/}
                 <img
                   css={{
                     borderRadius: "15pt",
@@ -123,11 +151,10 @@ const Sponsors = () => (
                   alt=""
                 />
               </SponsorLink>
-
             </div>
-          
-          {/* Mega */}
-          {/*
+
+            {/* Mega */}
+            {/*
           <div
               css={{
                 display: "grid",
@@ -394,13 +421,11 @@ const Sponsors = () => (
                </div>
               </div>
               */}
-            </div>
+          </div>
 
-        {/* Partners */}
-
-        
+          {/* Partners */}
+        </div>
       </div>
-    </div>
     </ContentWrapper>
   </section>
 );

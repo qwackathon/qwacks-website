@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import Header from "./Header";
 import ActionButton from "./ActionButton";
 import ContentWrapper from "./ContentWrapper";
@@ -9,6 +8,7 @@ import { Tween, Timeline } from 'react-gsap';
 
 import Toaster from "../assets/img/icons/Toaster2.svg";
 import Monkey from "../assets/img/icons/Monkey3.svg";
+import MonkeyBanana from "../assets/img/icons/monkeyBanana.svg";
 import paintCrown from "../assets/img/icons/PaintCrown.svg";
 import monkeyToaster from "../assets/img/logo/cuteMonkeyToaster.svg";
 

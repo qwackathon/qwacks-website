@@ -82,7 +82,7 @@ export default () => {
             },
             {
               property: "og:url",
-              content: "https://qwacks.io/"
+              content: "https://qwacks.fun/"
             },
             {
               property: "og:title",
