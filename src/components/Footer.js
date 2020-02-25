@@ -42,7 +42,7 @@ const navigateLinks = [
    }
   // {
   //   label: "QWacks Dashboard",
-  //   url: "https://app.qwacks.io",
+  //   url: "https://app.qwacks.fun",
   //   dataCy: "footer-dashboard-link"
   // },
   // {
@@ -55,8 +55,8 @@ const navigateLinks = [
 const socialLinks = [
   // {
   //   icon: mail,
-  //   url: "mailto:hello@qwacks.io",
-  //   label: "hello@qwacks.io",
+  //   url: "mailto:hello@qwacks.fun",
+  //   label: "hello@qwacks.fun",
   //   dataCy: "footer-email-link"
   // },
   // {
