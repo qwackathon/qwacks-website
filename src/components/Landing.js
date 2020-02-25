@@ -45,7 +45,7 @@ const Landing = () => (
   <Timeline totalProgress={progress2} paused>
     <Tween from={{ css: {opacity: 1, rotation: -20} }} to={{ css: {opacity: 0, rotation: 10} }}>
       <div className="animation">
-      <img src={Monkey} css={{transform: "scaleX(-1)", position: "absolute", width: "400px", right: "150px", top: "350px", overflowX: "hidden", "@media(max-width: 1400px)": {display: "none"}}}/>
+      <img src={MonkeyBanana} css={{transform: "scaleX(-1)", position: "absolute", width: "400px", right: "150px", top: "350px", overflowX: "hidden", "@media(max-width: 1400px)": {display: "none"}}}/>
       </div>
     </Tween>
   </Timeline>
