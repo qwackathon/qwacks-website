@@ -190,7 +190,7 @@ class EventSchedule extends Component {
               color: "white"
             }}
           >
-            *TBD Tier Sponsors get to host a mini-event at any point during wacking. More details in the sponsor package. 
+            *Silver and Gold tier sponsors get to host a mini event during wacking. More details in the sponsorship package. 
           </p>
         </section>
       </ContentWrapper>
