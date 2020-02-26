@@ -143,7 +143,7 @@ const Landing = () => (
                 marginLeft: "auto",
                 marginRight: "auto",
                 paddingTop: "40px",
-                paddingBottom: "5px",
+                paddingBottom: "0px",
                 width: "100vw",
                 maxWidth: "200px",
                 "@media(max-width: 820px)": {
@@ -152,7 +152,7 @@ const Landing = () => (
                   paddingBottom: "8px"
                 }
               }}
-              alt="QWacks Paint Crown"
+              alt="QWacks Monkey Toaster"
             />
 
           <img
