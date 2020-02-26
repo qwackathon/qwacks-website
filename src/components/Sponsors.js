@@ -87,6 +87,7 @@ const Sponsors = () => (
           </SponsorPackageButton>
           <div
             css={{
+              paddingBottom: "0px",
               marginTop: "40px",
               "@media(max-width: 500px)": {
                 marginBottom: "60px"
@@ -163,7 +164,7 @@ const Sponsors = () => (
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr 1fr",
                 marginTop: "60px",
-                marginBottom: "50px",
+                //marginBottom: "50px",
                 "@media(max-width: 610px)": {
                   gridTemplateColumns: "1fr",
                   marginBottom: "40px"
@@ -526,6 +527,7 @@ const Sponsors = () => (
                 display: "grid",
                 gridTemplateColumns: "1fr 1fr",
                 marginBottom: "40px",
+                paddingBottom: "0px",
                 "@media(max-width: 820px)": {
                   gridTemplateColumns: "1fr",
                   marginBottom: "20px"
@@ -612,7 +614,6 @@ const Sponsors = () => (
                   css={{
                     width: "190px",
                     marginTop: "55px",
-                    paddingBottom: "95px",
                     "@media(max-width: 980px)": {
                       width: "310px"
                     },
