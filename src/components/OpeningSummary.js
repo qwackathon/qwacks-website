@@ -19,7 +19,14 @@ const imgStyle = {
   maxHeight: "320px",
   maxWidth: "475px",
   width: "100%",
-  height: "150%"
+  height: "100%",
+  "@media(max-width: 1115px)": {
+    paddingTop: "10px"
+  },
+  "@media(max-width: 600px)": {
+    width: "100%",
+    height: "100%"
+  },
 };
 
 const OpeningSummary = () => (
@@ -112,7 +119,7 @@ const OpeningSummary = () => (
               }
             }}
           >
-          <picture css={imgStyle}>
+          <picture>
             <img
                 css={imgStyle}
                 src={ketchup}

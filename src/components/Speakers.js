@@ -69,7 +69,7 @@ const Speakers = () => (
     //   backgroundColor: "#f8f8f8",
       position: "relative"
     }}
-    id="bozos"
+    id="team"
   >
     <ContentWrapper>
       <h1
@@ -85,7 +85,7 @@ const Speakers = () => (
           }
         }}
       >
-        The bozos who thought this would be a good idea
+        The goons who thought this would be a good idea
       </h1>
       {/* Desktop */}
       <div

@@ -142,7 +142,7 @@ const Footer = () => (
               [smallScreens]: { zIndex: "4", paddingLeft: "24px", paddingRight: "24px" }
             }}
           >
-            Despite what it may seem, QWacks is an actual event and the bozos above have put a lot of work into it. QWacks is still a bad idea though.
+            Despite what it may seem, QWacks is an actual event and the goons above have put a lot of work into it. QWacks is still a bad idea though.
           </p>
           {/* <h3>Stay Connected</h3> */}
           {/* <p

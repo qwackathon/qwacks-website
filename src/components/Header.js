@@ -12,7 +12,7 @@ const menuItems = [
   "about",
   "inspiration",
   "schedule",
-  "bozos",
+  "team",
   "sponsors",
   "faq"
 ];

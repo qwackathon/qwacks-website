@@ -26,7 +26,7 @@ const questionsAndAnswers = [
   },
   {
     question: "How much does it cost to attend?",
-    answer: "The event will cost anywhere from $5 - $10, and you may ask “Why are we paying for a hackathon? They’re always free!” Well guess what bozo this is a WACKATHON, notice the difference? We take W’s. The reason for the cost is to give participants the most rewarding experience possible. The money will mainly go towards prizes and food for YOU!"
+    answer: "The event will cost anywhere from $5 - $10. Now wait a minute, you're probably asking why you'd pay for a hackathon? Well it's simple! Not only does your ticket buy you admission to the event, it also gets you 4 free meals (two dinners, breakfast, lunch), as well as free QWacks swag and goodies. Also, any extra funds leftover after expenses will be donated to charity."
   },
   {
     question: "What if I don’t have a team?",

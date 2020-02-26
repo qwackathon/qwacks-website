@@ -1,9 +1,9 @@
 import React from "react";
 
-import cubeswebp from "../assets/img/icons/mobileMenuCubes.webp";
+import monkeyToasterFloatwebp from "../assets/img/icons/monkey-toaster-float-2.webp";
 import menuClose from "../assets/img/icons/mobileMenuClose.svg";
 import hamburger from "../assets/img/icons/mobileMenuOpen.svg";
-import cubespng from "../assets/img/icons/mobileMenuCubes.png";
+import monkeyToasterFloatpng from "../assets/img/icons/monkey-toaster-float-2.png";
 
 const MobileMenu = (props) => (
   <div
@@ -35,7 +35,7 @@ const MobileMenu = (props) => (
         top: "0px",
         left: "0px",
         zIndex: "5",
-        background: "#855988"
+        background: "#804783"
       }}
     >
       <input
@@ -85,9 +85,9 @@ const MobileMenu = (props) => (
           ))}
           <div css={{ marginTop: "-100px", pointerEvents: "none" }}>
             <picture>
-              <source srcSet={cubeswebp} type="image/webp" />
-              <source srcSet={cubespng} type="image/png" />
-              <img src={cubespng} alt="Floating cubes" />
+              <source srcSet={monkeyToasterFloatwebp} type="image/webp" />
+              <source srcSet={monkeyToasterFloatpng} type="image/png" />
+              <img css={{width: "69%", paddingTop: "125px"}}src={monkeyToasterFloatpng} alt="Floating monkey" />
             </picture>
           </div>
         </div>
