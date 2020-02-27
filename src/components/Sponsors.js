@@ -11,6 +11,7 @@ import possiblyYou from "../assets/img/sponsors/possibly-you.gif";
 import cac from "../assets/img/sponsors/cac.png"
 import lug from "../assets/img/sponsors/lug.png"
 import hotBroth from "../assets/img/sponsors/hotBroth.jpg"
+import neauxGoods from "../assets/img/sponsors/neaux-goods.png"
 
 const sponsorButtonCSS = {
   alignItems: "center",
@@ -620,6 +621,25 @@ const Sponsors = () => (
                   }}
                 />
               </SponsorLink>
+              <SponsorLink url="https://www.neauxgoods.com ">
+                <img
+                  src={neauxGoods}
+                  css={{
+                    width: "190px",
+                    marginTop: "55px",
+                    "@media(max-width: 980px)": {
+                      width: "310px"
+                    },
+                    "@media(max-width: 680px)": {
+                      width: "250px"
+                    },
+                    "@media(max-width: 460px)": {
+                      width: "230px"
+                    }
+                  }}
+                  alt="Neaux Goods Logo"
+                />
+              </SponsorLink>
               <SponsorLink url="https://www.listennotes.com/podcasts/hot-broth-hot-broth-yCA1o3BDM4T/">
                 <img
                   src={hotBroth}
@@ -636,7 +656,7 @@ const Sponsors = () => (
                       width: "230px"
                     }
                   }}
-                  alt="QIC Logo"
+                  alt="Hot Broth Logo"
                 />
               </SponsorLink>
             </div>
