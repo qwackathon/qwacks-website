@@ -232,6 +232,13 @@ const Landing = () => (
             >
               Apply Soonish
             </ActionButton>
+            <h1 css={{
+              color: "black",
+              paddingTop: "30px",
+              paddingBottom: "25px",
+              fontWeight: 300,
+              fontSize: "40px"
+            }}>Applications open March 1st!</h1>
             <h2
               data-cy="qwacks-tagline"
               css={{
