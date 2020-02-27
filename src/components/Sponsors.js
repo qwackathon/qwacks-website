@@ -17,9 +17,21 @@ const sponsorButtonCSS = {
   alignItems: "center",
   position: "relative",
   zIndex: "2",
-  margin: "40px 0 20px auto",
+  margin: "40px 0px 20px auto",
   "@media(max-width: 820px)": {
     margin: "30px auto 45px auto",
+    padding: "5px 10px 5px 10px"
+    
+  }
+};
+
+const supportButtonCSS = {
+  alignItems: "center",
+  position: "relative",
+  zIndex: "2",
+  margin: "40px 25px 20px auto",
+  "@media(max-width: 820px)": {
+    margin: "30px 15px 45px auto",
     padding: "5px 10px 5px 10px"
     
   }
@@ -941,12 +953,23 @@ const Sponsors = () => (
             dataCy="apply-button"
             backgroundColor="#00205B"
             foregroundColor="#ffffff"
-            style={sponsorButtonCSS}
+            style={supportButtonCSS}
             link="https://forms.gle/NT6R166u2ZGc4KGh8"
             //link="https://docs.google.com/forms/d/1KYcJRirA7Bm1MTMPlUhu-59kBH50Ca7WpcWO4-rfe_k/edit"
             type="rounded"
           >
             Support Us!
+          </SponsorPackageButton>
+          <SponsorPackageButton
+            dataCy="apply-button"
+            backgroundColor="#00205B"
+            foregroundColor="#ffffff"
+            style={supportButtonCSS}
+            link="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
+            //link="https://docs.google.com/forms/d/1KYcJRirA7Bm1MTMPlUhu-59kBH50Ca7WpcWO4-rfe_k/edit"
+            type="rounded"
+          >
+            A La Carte
           </SponsorPackageButton>
           {/* School */}
           <div
