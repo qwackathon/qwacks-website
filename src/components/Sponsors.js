@@ -922,7 +922,7 @@ const Sponsors = () => (
             backgroundColor="#00205B"
             foregroundColor="#ffffff"
             style={sponsorButtonCSS}
-            link="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
+            link="https://forms.gle/NT6R166u2ZGc4KGh8"
             //link="https://docs.google.com/forms/d/1KYcJRirA7Bm1MTMPlUhu-59kBH50Ca7WpcWO4-rfe_k/edit"
             type="rounded"
           >
