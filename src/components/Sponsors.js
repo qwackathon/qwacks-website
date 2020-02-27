@@ -58,22 +58,34 @@ const Sponsors = () => (
 
         <div>
           <h1>Sponsors</h1>
-          <h2
-            css={{
-              paddingTop: "25px",
-              fontWeight: 400,
-              fontSize: "16px",
-              paddingRight: "70px",
-              paddingLeft: "70px",
-              lineHeight: "30px",
-              textAlign: "left"
-            }}
-          >
-            We're letting literally anyone sponsor. From Fortune 500 companies
-            to folks with $5 in their pocket, money is money is money. If you
-            sponsor $5+ we'll put your name and photo on the site and you can be
-            associated to this dumpster fire.
-          </h2>
+          <p
+              css={{
+                position: "relative",
+                zIndex: "9999",
+                fontWeight: "bold",
+                color: "#000000",
+                paddingBottom: "0px",
+                paddingTop: "30px",
+                ">a": {
+                  color: "#c81c2e",
+                  textDecoration: "underline",
+                  ":hover": { textDecoration: "none" }
+                }
+              }}
+            >
+              Interested in sponsoring? Contact us at{" "}
+              <a
+                data-cy="partners-email-prompt"
+                href="mailto:sponsor@qwacks.fun"
+                css={{
+                  zIndex: "9999",
+                  fontSize: "16px",
+                  fontWeight: "bold"
+                }}
+              >
+                sponsor@qwacks.fun
+              </a>
+            </p>
           {/* Giga */}
           <SponsorPackageButton
             dataCy="apply-button"
@@ -864,9 +876,9 @@ const Sponsors = () => (
               }}
             >
               If you support us by donating anything between{" "}
-              <b css={{ fontWeight: 500 }}>$7 - $20</b>, we'll support <i>you</i> by
+              <b css={{ fontWeight: 500 }}>$7 - $15</b>, we'll support <i>you</i> by
               putting your name and either a quote, link, or text of your choosing! If
-              you donate between <b css={{ fontWeight: 500 }}>$20 - $50</b>,
+              you donate between <b css={{ fontWeight: 500 }}>$15+</b>,
               you'll also get a picture on the site!
             </p>
 
@@ -892,10 +904,9 @@ const Sponsors = () => (
               and wonkiest things we could think of, to take place during the
               event. They are called{" "}
               <b css={{ fontWeight: 500 }}>"A La Carte"</b> items. These are
-              individual games, challenges, events, that you can buy! For every
-              $10 donated, you get to choose one item from the{" "}
+              individual games, challenges, events, that you can buy! For varying prices, you may purchase items from the{" "}
               <b css={{ fontWeight: 500 }}>"A La Carte"</b> menu.{" "}
-              <b css={{ fontWeight: 500 }}>Stay tuned for the menu.</b>
+              <b css={{ fontWeight: 500 }}>Menu coming soon.</b>
             </p>
             {/* <ActionButton
             backgroundColor="#f8f8f8"
