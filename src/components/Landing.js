@@ -77,7 +77,7 @@ const Landing = () => (
             >
               <div className="animation">
                 <img
-                  src={Monkey}
+                  src={MonkeyBanana}
                   css={{
                     transform: "scaleX(-1)",
                     position: "absolute",
