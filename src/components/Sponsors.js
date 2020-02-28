@@ -6,6 +6,8 @@ import ContentWrapper from "./ContentWrapper";
 
 import placeholder from "../assets/img/sponsors/placeholder.png";
 import sponsorshipPackage from "../assets/img/sponsors/qwacks-sponsorship-package.pdf"
+import aLaCarteMenu from "../assets/img/a_la_carte/qwacks-a-la-carte-pg1.pdf"
+
 import gogurt from "../assets/img/sponsors/gogurt.png";
 import possiblyYou from "../assets/img/sponsors/possibly-you.gif";
 import cac from "../assets/img/sponsors/cac.png"
@@ -938,7 +940,6 @@ const Sponsors = () => (
               <b css={{ fontWeight: 500 }}>"A La Carte"</b> items. These are
               individual games, challenges, events, that you can buy! For varying prices, you may purchase items from the{" "}
               <b css={{ fontWeight: 500 }}>"A La Carte"</b> menu.{" "}
-              <b css={{ fontWeight: 500 }}>Menu coming soon.</b>
             </p>
             {/* <ActionButton
             backgroundColor="#f8f8f8"
@@ -965,7 +966,7 @@ const Sponsors = () => (
             backgroundColor="#00205B"
             foregroundColor="#ffffff"
             style={supportButtonCSS}
-            link="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
+            link={aLaCarteMenu}
             //link="https://docs.google.com/forms/d/1KYcJRirA7Bm1MTMPlUhu-59kBH50Ca7WpcWO4-rfe_k/edit"
             type="rounded"
           >
