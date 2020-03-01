@@ -21,7 +21,7 @@ const applyButtonCSS = {
   "@media(max-width: 820px)": {
     margin: "30px auto 45px auto",
     padding: "5px 10px 5px 10px"
-    
+
   }
 };
 
@@ -155,25 +155,25 @@ const Landing = () => (
               alt="QWacks Monkey Toaster"
             />
 
-          <img
-            // class="center"
-            src={qwacksLogoTyped}
-            css={{
-              display: "block",
-              marginLeft: "auto",
-              marginRight: "auto",
-              paddingTop: "0px",
-              paddingBottom: "2px",
-              width: "100%",
-              maxWidth: "500px",
-              "@media(max-width: 820px)": {
-                paddingTop: "12px",
-                width: "80%",
-                paddingBottom: "8px"
-              }
-            }}
-            alt="QWacks Wordmark"
-          />
+            <img
+              // class="center"
+              src={qwacksLogoTyped}
+              css={{
+                display: "block",
+                marginLeft: "auto",
+                marginRight: "auto",
+                paddingTop: "0px",
+                paddingBottom: "2px",
+                width: "100%",
+                maxWidth: "500px",
+                "@media(max-width: 820px)": {
+                  paddingTop: "12px",
+                  width: "80%",
+                  paddingBottom: "8px"
+                }
+              }}
+              alt="QWacks Wordmark"
+            />
 
             <h2
               data-cy="qwacks-information"
@@ -227,18 +227,34 @@ const Landing = () => (
               backgroundColor="#00205B"
               foregroundColor="#ffffff"
               style={applyButtonCSS}
-              link="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
+              //link="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
+              link="https://forms.gle/XkVSJWtQBqphvYzx9"
               type="rounded"
             >
-              Apply Soonish
+              Apply Now!
             </ActionButton>
             <h1 css={{
               color: "black",
               paddingTop: "30px",
-              paddingBottom: "25px",
-              fontWeight: 300,
+              paddingBottom: "10px",
+              fontWeight: 400,
               fontSize: "40px"
-            }}>Applications open March 1st!</h1>
+            }}>Applications open <strike>March 1st</strike></h1>
+            <h1 css={{
+              color: "black",
+              fontWeight: 500,
+              paddingBottom: "20px",
+              fontSize: "40px"
+            }}> Right Now!</h1>
+            
+            <h3 css={{
+              color: "black",
+              paddingBottom: "25px",  
+              fontWeight: 300,
+              fontSize: "25px"
+            }}>(and they'll stay open until March 11th)</h3>
+
+
             <h2
               data-cy="qwacks-tagline"
               css={{
