@@ -8,12 +8,11 @@ import placeholder from "../assets/img/sponsors/placeholder.png";
 import sponsorshipPackage from "../assets/img/sponsors/qwacks-sponsorship-package.pdf"
 import aLaCarteMenu from "../assets/img/a_la_carte/qwacks-a-la-carte-pg1.pdf"
 
-import gogurt from "../assets/img/sponsors/gogurt.png";
-import possiblyYou from "../assets/img/sponsors/possibly-you.gif";
 import cac from "../assets/img/sponsors/cac.png"
 import lug from "../assets/img/sponsors/lug.png"
 import hotBroth from "../assets/img/sponsors/hotBroth.jpg"
 import neauxGoods from "../assets/img/sponsors/neaux-goods.png"
+import bounce from "../assets/img/sponsors/bounce.png"
 
 const sponsorButtonCSS = {
   alignItems: "center",
@@ -74,33 +73,33 @@ const Sponsors = () => (
         <div>
           <h1>Sponsors</h1>
           <p
+            css={{
+              position: "relative",
+              zIndex: "9999",
+              fontWeight: "bold",
+              color: "#000000",
+              paddingBottom: "0px",
+              paddingTop: "30px",
+              ">a": {
+                color: "#c81c2e",
+                textDecoration: "underline",
+                ":hover": { textDecoration: "none" }
+              }
+            }}
+          >
+            Interested in sponsoring? Contact us at{" "}
+            <a
+              data-cy="partners-email-prompt"
+              href="mailto:sponsor@qwacks.fun"
               css={{
-                position: "relative",
                 zIndex: "9999",
-                fontWeight: "bold",
-                color: "#000000",
-                paddingBottom: "0px",
-                paddingTop: "30px",
-                ">a": {
-                  color: "#c81c2e",
-                  textDecoration: "underline",
-                  ":hover": { textDecoration: "none" }
-                }
+                fontSize: "16px",
+                fontWeight: "bold"
               }}
             >
-              Interested in sponsoring? Contact us at{" "}
-              <a
-                data-cy="partners-email-prompt"
-                href="mailto:sponsor@qwacks.fun"
-                css={{
-                  zIndex: "9999",
-                  fontSize: "16px",
-                  fontWeight: "bold"
-                }}
-              >
-                sponsor@qwacks.fun
-              </a>
-            </p>
+              sponsor@qwacks.fun
+            </a>
+          </p>
           {/* Giga */}
           <SponsorPackageButton
             dataCy="apply-button"
@@ -167,21 +166,6 @@ const Sponsors = () => (
                   alt="CAC Logo"
                 />
               </SponsorLink>
-
-              <SponsorLink>
-                <img
-                  src={placeholder}
-                  css={{
-                    width: "0px",
-                    "@media(max-width: 1080px)": {
-                      display: "none",
-                      width: "0px",
-                      marginBottom: "20px"
-                    }
-                  }}
-                  alt=""
-                />
-              </SponsorLink>
             </div>
 
             {/* Mega */}
@@ -198,16 +182,29 @@ const Sponsors = () => (
                 }
               }}
             >
-              {/*
-            <SponsorLink url="https://www.lughockey.com/">
+              <SponsorLink>
                 <img
-                  src={lug}
+                  src={placeholder}
                   css={{
-                    width: "300px",
-                    marginLeft: "100px",
+                    width: "0px",
+                    "@media(max-width: 1080px)": {
+                      display: "none",
+                      width: "0px",
+                      marginBottom: "20px"
+                    }
+                  }}
+                  alt=""
+                />
+              </SponsorLink>
+              <SponsorLink url="https://www.bounceapp.ca/">
+                <img
+                  src={bounce}
+                  css={{
+                    width: "325px",
+                    //marginLeft: "100px",
                     marginBottom: "125px",
                     "@media(max-width: 1080px)": {
-                      width: "250px",
+                      width: "250px"
                     },
                     "@media(max-width: 980px)": {
                       width: "205px",
@@ -225,7 +222,7 @@ const Sponsors = () => (
                       marginLeft: "0px"
                     }
                   }}
-                  alt="Lug Logo"
+                  alt="Bounce Logo"
                 />
               </SponsorLink>
 
@@ -243,7 +240,7 @@ const Sponsors = () => (
                   alt=""
                 />
               </SponsorLink>
-
+              {/*
               <SponsorLink url="https://www.listennotes.com/podcasts/hot-broth-hot-broth-yCA1o3BDM4T/">
                 <img
                   src={hotBroth}
@@ -910,10 +907,11 @@ const Sponsors = () => (
               }}
             >
               If you support us by donating anything between{" "}
-              <b css={{ fontWeight: 500 }}>$7 - $15</b>, we'll support <i>you</i> by
-              putting your name and either a quote, link, or text of your choosing! If
-              you donate between <b css={{ fontWeight: 500 }}>$15+</b>,
-              you'll also get a picture on the site!
+              <b css={{ fontWeight: 500 }}>$7 - $15</b>, we'll support{" "}
+              <i>you</i> by putting your name and either a quote, link, or text
+              of your choosing! If you donate between{" "}
+              <b css={{ fontWeight: 500 }}>$15+</b>, you'll also get a picture
+              on the site!
             </p>
 
             <p
@@ -938,7 +936,8 @@ const Sponsors = () => (
               and wonkiest things we could think of, to take place during the
               event. They are called{" "}
               <b css={{ fontWeight: 500 }}>"A La Carte"</b> items. These are
-              individual games, challenges, events, that you can buy! For varying prices, you may purchase items from the{" "}
+              individual games, challenges, events, that you can buy! For
+              varying prices, you may purchase items from the{" "}
               <b css={{ fontWeight: 500 }}>"A La Carte"</b> menu.{" "}
             </p>
             {/* <ActionButton
