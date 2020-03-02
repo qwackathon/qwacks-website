@@ -153,13 +153,13 @@ const Sponsors = () => (
                     marginBottom: "10px",
                     width: "600px",
                     "@media(max-width: 980px)": {
-                      width: "300px"
+                      width: "500px"
                     },
                     "@media(max-width: 680px)": {
-                      width: "200px"
+                      width: "400px"
                     },
                     "@media(max-width: 500px)": {
-                      width: "180px"
+                      width: "300px"
                     }
                   }}
                   src={cac}
@@ -204,22 +204,22 @@ const Sponsors = () => (
                     //marginLeft: "100px",
                     marginBottom: "125px",
                     "@media(max-width: 1080px)": {
-                      width: "250px"
+                      width: "325px"
                     },
                     "@media(max-width: 980px)": {
-                      width: "205px",
+                      width: "250px",
                       marginBottom: "20px",
-                      marginRight: "30px"
+                      //marginRight: "30px"
                     },
                     "@media(max-width: 740px)": {
-                      width: "200px",
+                      width: "250px",
                       marginBottom: "20px",
-                      marginLeft: "30px"
+                      //marginLeft: "30px"
                     },
                     "@media(max-width: 610px)": {
                       width: "200px",
                       marginBottom: "20px",
-                      marginLeft: "0px"
+                      //marginLeft: "0px"
                     }
                   }}
                   alt="Bounce Logo"
@@ -549,7 +549,7 @@ const Sponsors = () => (
               css={{
                 zIndex: "9999",
                 display: "grid",
-                gridTemplateColumns: "1fr 1fr",
+                gridTemplateColumns: "1fr 1fr 1fr",
                 marginBottom: "40px",
                 paddingBottom: "0px",
                 "@media(max-width: 820px)": {
@@ -617,17 +617,17 @@ const Sponsors = () => (
                   alt="Lug Logo"
                   css={{
                     zIndex: "9999",
-                    marginTop: "20px",
-                    width: "350px",
+                    marginTop: "60px",
+                    width: "200px",
                     paddingTop: "60px",
                     "@media(max-width: 980px)": {
-                      width: "310px"
+                      width: "200px"
                     },
                     "@media(max-width: 680px)": {
-                      width: "250px"
+                      width: "100px"
                     },
                     "@media(max-width: 460px)": {
-                      width: "230px"
+                      width: "80px"
                     }
                   }}
                 />
@@ -636,16 +636,16 @@ const Sponsors = () => (
                 <img
                   src={neauxGoods}
                   css={{
-                    width: "190px",
+                    width: "150px",
                     marginTop: "55px",
                     "@media(max-width: 980px)": {
-                      width: "310px"
+                      width: "150px"
                     },
                     "@media(max-width: 680px)": {
-                      width: "250px"
+                      width: "85px"
                     },
                     "@media(max-width: 460px)": {
-                      width: "230px"
+                      width: "60px"
                     }
                   }}
                   alt="Neaux Goods Logo"
@@ -655,16 +655,16 @@ const Sponsors = () => (
                 <img
                   src={hotBroth}
                   css={{
-                    width: "190px",
-                    marginTop: "55px",
+                    width: "160px",
+                    marginTop: "85px",
                     "@media(max-width: 980px)": {
-                      width: "310px"
+                      width: "160px"
                     },
                     "@media(max-width: 680px)": {
-                      width: "250px"
+                      width: "90px"
                     },
                     "@media(max-width: 460px)": {
-                      width: "230px"
+                      width: "70px"
                     }
                   }}
                   alt="Hot Broth Logo"
