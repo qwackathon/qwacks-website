@@ -253,7 +253,12 @@ const Landing = () => (
               fontWeight: 300,
               fontSize: "25px"
             }}>(and they'll stay open until March 11th)</h3>
-
+            <h3 css={{
+              color: "black",
+              paddingBottom: "25px",  
+              fontWeight: 300,
+              fontSize: "25px"
+            }}>***and also yes this is a real event***</h3>
 
             <h2
               data-cy="qwacks-tagline"

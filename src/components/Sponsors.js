@@ -200,7 +200,7 @@ const Sponsors = () => (
                 <img
                   src={bounce}
                   css={{
-                    width: "325px",
+                    width: "400px",
                     //marginLeft: "100px",
                     marginBottom: "125px",
                     "@media(max-width: 1080px)": {
@@ -1073,7 +1073,7 @@ const Sponsors = () => (
                 marginBottom: "20px"
               }
             }}
-          > */}
+          > 
               <div
                 css={{
                   paddingBottom: "80px",
@@ -1085,43 +1085,21 @@ const Sponsors = () => (
                     paddingBottom: "10px"
                   }}
                 >
-                  John Doe
+                  ye
                 </h1>
                 <a
-                  href="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
+                  //href="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
                   target="_blank"
                   css={{
                     fontSize: "15px"
                   }}
                 >
                   {" "}
-                  I'm super excited to support my friends!
+                  look at me now, dad
+
                 </a>
               </div>
-              <div
-                css={{
-                  paddingBottom: "80px",
-                  paddingTop: "30px"
-                }}
-              >
-                <h1
-                  css={{
-                    paddingBottom: "10px"
-                  }}
-                >
-                  Jane Doe
-                </h1>
-                <a
-                  href="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
-                  target="_blank"
-                  css={{
-                    fontSize: "15px"
-                  }}
-                >
-                  {" "}
-                  I'm also super excited to support my friends!
-                </a>
-              </div>
+                */}
             </div>
 
             {/* School Row 4 */}

@@ -15,14 +15,7 @@ const schedule = [
   {
     startDate: "2020-03-20T17:00:00",
     endDate: "2020-03-20T18:00:00",
-    eventName: "Registration",
-    subtitle: " ",
-    location: "Mackintosh-Corry D201"
-    },
-    {
-    startDate: "2020-03-20T17:00:00",
-    endDate: "2020-03-20T18:00:00",
-    eventName: "Dinner",
+    eventName: "Registration and Dinner",
     subtitle: " ",
     location: "Mackintosh-Corry D201"
     },
