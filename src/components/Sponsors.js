@@ -1063,6 +1063,7 @@ const Sponsors = () => (
             </SponsorLink>
           </div>
           School Row 3
+          
           <div
             css={{
               display: "grid",
@@ -1074,6 +1075,7 @@ const Sponsors = () => (
               }
             }}
           > 
+          */}
               <div
                 css={{
                   paddingBottom: "80px",
@@ -1099,7 +1101,7 @@ const Sponsors = () => (
 
                 </a>
               </div>
-                */}
+              
             </div>
 
             {/* School Row 4 */}
