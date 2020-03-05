@@ -1084,7 +1084,8 @@ const Sponsors = () => (
               >
                 <h1
                   css={{
-                    paddingBottom: "10px"
+                    paddingBottom: "10px",
+                    fontSize: "40px"
                   }}
                 >
                   ye
@@ -1093,7 +1094,7 @@ const Sponsors = () => (
                   //href="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
                   target="_blank"
                   css={{
-                    fontSize: "15px"
+                    fontSize: "25px"
                   }}
                 >
                   {" "}
