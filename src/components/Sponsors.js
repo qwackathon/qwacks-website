@@ -1085,16 +1085,16 @@ const Sponsors = () => (
                 <h1
                   css={{
                     paddingBottom: "10px",
-                    fontSize: "40px"
+                    fontSize: "35px"
                   }}
                 >
-                  ye
+                  Cameron Raymond
                 </h1>
                 <a
                   //href="https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-size_restricted.gif"
                   target="_blank"
                   css={{
-                    fontSize: "25px"
+                    fontSize: "20px"
                   }}
                 >
                   {" "}
