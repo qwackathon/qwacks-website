@@ -104,7 +104,7 @@ const Features = () => (
               list={[
                 {
                   icon: applications,
-                  number: 0,
+                  number: 102,
                   text: "Applications so far"
                 },
                 {
@@ -114,7 +114,7 @@ const Features = () => (
                 },
                 {
                   icon: hackers,
-                  number: 0,
+                  number: 5,
                   text: "Wackers as of right now"
                 }
               ]}
@@ -171,7 +171,7 @@ const Features = () => (
               list={[
                 {
                   icon: mentors,
-                  number: 0,
+                  number: 5,
                   text: "Mentors at the moment"
                 },
                 {
@@ -181,7 +181,7 @@ const Features = () => (
                 },
                 {
                   icon: challenges,
-                  number: 0,
+                  number: 3,
                   text: "Challenges for now"
                 }
               ]}
