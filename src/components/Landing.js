@@ -190,7 +190,28 @@ const Landing = () => (
                 }
               }}
             >
-              Queen’s University • March 20th - March 21st, 2020
+              <strike>
+                Queen’s University • March 20th - March 21st, 2020
+              </strike>
+              
+            </h2>
+            <h2
+              data-cy="qwacks-information"
+              css={{
+                position: "relative",
+                zIndex: "2",
+                color: "#ffffff",
+                fontWeight: 600,
+                fontSize: "22px",
+                textAlign: "center",
+                // paddingBottom: "30px",
+                "@media(max-width: 820px)": {
+                  paddingBottom: "24px"
+                }
+              }}
+            >
+              QWacks 2020 has been cancelled due to Covid 19 :(
+              
             </h2>
             <div
               css={{
@@ -245,20 +266,14 @@ const Landing = () => (
               fontWeight: 500,
               paddingBottom: "20px",
               fontSize: "40px"
-            }}> Right Now!</h1>
-            
+            }}>  Next Year!</h1>
+
             <h3 css={{
               color: "black",
-              paddingBottom: "25px",  
+              paddingBottom: "25px",
               fontWeight: 300,
               fontSize: "25px"
-            }}>(and they'll stay open until March 11th)</h3>
-            <h3 css={{
-              color: "black",
-              paddingBottom: "25px",  
-              fontWeight: 300,
-              fontSize: "25px"
-            }}>***and also yes this is a real event***</h3>
+            }}>See you guys next time!</h3>
 
             <h2
               data-cy="qwacks-tagline"
