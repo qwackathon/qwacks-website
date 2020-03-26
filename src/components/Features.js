@@ -104,12 +104,12 @@ const Features = () => (
               list={[
                 {
                   icon: applications,
-                  number: 102,
+                  number: 130,
                   text: "Applications so far"
                 },
                 {
                   icon: schools,
-                  number: 1,
+                  number: 2,
                   text: "School for now"
                 },
                 {
