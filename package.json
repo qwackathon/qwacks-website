@@ -37,7 +37,7 @@
     "@sentry/browser": "^4.2.4",
     "apollo-boost": "^0.1.23",
     "babel-polyfill": "^6.26.0",
-    "gatsby": "^2.17.4",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-glamor": "^2.0.5",
     "gatsby-plugin-google-analytics": "^2.0.7",
     "gatsby-plugin-manifest": "^2.0.6",
